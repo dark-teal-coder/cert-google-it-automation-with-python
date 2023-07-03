@@ -168,7 +168,7 @@ while number >= 5: # Complete the while loop condition
     print(number, end=" ")
     number -= 5 # Decrement the variable
 
-# Should print 15 10 5 
+# Should print 15 10 5
 ```
 
 **Question 02**
@@ -212,13 +212,13 @@ print(factorial(1)) # Should print 1
 ```python
 def multiplication_table(start, stop):
     # Complete the outer loop range
-    for x in range(1, 3+1): 
+    for x in range(1, 3+1):
          # Complete the inner loop range
         for y in range(1, 3+1):
-            # Prints the value of "x" multiplied by "y" 
+            # Prints the value of "x" multiplied by "y"
             # and inserts a space after each value
             print(str(x*y), end=" ")
-        # An empty print() function inserts a line break at the end of the row 
+        # An empty print() function inserts a line break at the end of the row
         print()
 
 
@@ -257,14 +257,14 @@ print(counter(5, 5)) # Should be "Counting up: 5"
 def all_numbers(minimum, maximum):
     return_string = "" # Initializes variable as a string
 
-    # Complete the for loop with a range that includes all 
+    # Complete the for loop with a range that includes all
     # numbers up to and including the "maximum" value.
     for n in range(minimum, maximum+1):
         # Complete the body of the loop by appending the number
         # followed by a space to the "return_string" variable.
         return_string += str(n) + " "
 
-    # This .strip command will remove the final " " space 
+    # This .strip command will remove the final " " space
     # at the end of the "return_string".
     return return_string.strip()
 
@@ -302,16 +302,16 @@ def format_address(address_string):
     street_name = ""
     # Separate the house number from the street name.
     address_parts = address_string.split()
-    
+
     for address_part in address_parts:
-       # Complete the if-statement with a string method.  
+       # Complete the if-statement with a string method.
        if address_part.isnumeric():
          house_number = address_part
        else:
          street_name += address_part + " "
     # Remove the extra space at the end of the last "street_name".
     street_name = street_name.strip()
- 
+
     # Use a string method to return the required formatted string.
     return f"House number {house_number} on a street named {street_name}"
 
@@ -330,7 +330,7 @@ print(format_address("55 North Center Drive"))
 
 ```python
 def string_words(string):
-    # Complete the return statement using both a string operation and 
+    # Complete the return statement using both a string operation and
     # a string method in a single line.
     return len(string.split())
 
@@ -347,10 +347,10 @@ print(string_words("Have a nice day")) # Should print 4
 def combine_lists(list1, list2):
   combined_list = [] # Initialize an empty list variable
   list1.reverse() # Reverse the order of "list1"
-  list2 += list1 # Combine the two lists 
+  list2 += list1 # Combine the two lists
   combined_list = list2
-  return combined_list  
-  
+  return combined_list
+
 Jaimes_list = ["Alma", "Chika", "Benjamin", "Jocelyn", "Oakley"]
 Drews_list = ["Minna", "Carol", "Gunnar", "Malena"]
 
@@ -376,10 +376,10 @@ print(increments(0, 10)) # Should print [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 ```python
 def car_listing(car_prices):
   result = ""
-  # Complete the for loop to iterate through the key and value items 
+  # Complete the for loop to iterate through the key and value items
   # in the dictionary.
-  for car, price in car_prices.items(): 
-    result += f"A {car} costs {price} dolloars.\n" # Use a string method to format the required string. 
+  for car, price in car_prices.items():
+    result += f"A {car} costs {price} dolloars.\n" # Use a string method to format the required string.
   return result
 
 print(car_listing({"Kia Soul":19000, "Lamborghini Diablo":55000, "Ford Fiesta":13000, "Toyota Prius":24000}))
@@ -397,8 +397,8 @@ print(car_listing({"Kia Soul":19000, "Lamborghini Diablo":55000, "Ford Fiesta":1
 def setup_guests(guest_list):
     # loop over the guest list and add each guest to the dictionary with
     # an initial value of 0
-    result = {} # Initialize a new dictionary 
-    for guest in guest_list: # Iterate over the elements in the list 
+    result = {} # Initialize a new dictionary
+    for guest in guest_list: # Iterate over the elements in the list
         result.update({guest: 0}) # Add each list element to the dictionary as a key with the starting value of 0
     return result
 
@@ -413,9 +413,9 @@ print(setup_guests(guests))
 ```python
 def setup_gradebook(old_gradebook):
   # Use a dictionary method to create a new copy of the "old_gradebook".
-  new_gradebook = old_gradebook.copy() 
-    # Complete the for loop to iterate over the new gradebook. 
-  for name in new_gradebook.keys(): 
+  new_gradebook = old_gradebook.copy()
+    # Complete the for loop to iterate over the new gradebook.
+  for name in new_gradebook.keys():
     # Use a dictionary operation to reset the grade values to 0.
     new_gradebook.update({name:0})
   return new_gradebook

@@ -1,4 +1,4 @@
-# Crash Course on Python
+# Notes on Crash Course on Python
 
 ## Week 1 >> Week 1 Graded Assessment
 

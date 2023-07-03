@@ -480,3 +480,21 @@ transc, nd
 **Question 10**
 
 ['Aniyah Cook', 'Ines Bisset', 'Wayne Branon'']
+
+## Week 5
+
+### Object-oriented Programming (Optional)
+
+### Classes and Methods (Optional)
+
+### Code Reuse
+
+### Module Review
+
+#### Practice Notebook: Object Oriented Programming (Optional)
+
+## Week 6
+
+### Writing a Script from the Ground Up
+
+### Course Wrap-Up

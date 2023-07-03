@@ -9,15 +9,15 @@ Step-by-step instructions on how to complete a set of tasks, to be executed by a
 **Question 02**
 
 Multiple answers:
-[x] Similar to human language, programming languages use syntax and semantics.
-[x] Programming languages are used to write computer programs and scripts.
-[x] Some common programming languages include Python, Java, C, C++, C#, and R.
+- [x] Similar to human language, programming languages use syntax and semantics.
+- [x] Programming languages are used to write computer programs and scripts.
+- [x] Some common programming languages include Python, Java, C, C++, C#, and R.
 
 **Question 03**
 
 Multiple answers:
-[x] Detecting and removing duplicate data
-[x] Updating specific files on multiple computers
+- [x] Detecting and removing duplicate data
+- [x] Updating specific files on multiple computers
 
 **Question 04**
 

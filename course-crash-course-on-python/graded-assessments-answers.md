@@ -291,3 +291,148 @@ The "sum" variable is initialized with the wrong value
 **Question 10**
 
 When called with 0, it triggers an infinite loop
+
+## Week 4 >> Week 4 Graded Assessment
+
+**Question 01**
+
+```python
+def format_address(address_string):
+    house_number = ""
+    street_name = ""
+    # Separate the house number from the street name.
+    address_parts = address_string.split()
+    
+    for address_part in address_parts:
+       # Complete the if-statement with a string method.  
+       if address_part.isnumeric():
+         house_number = address_part
+       else:
+         street_name += address_part + " "
+    # Remove the extra space at the end of the last "street_name".
+    street_name = street_name.strip()
+ 
+    # Use a string method to return the required formatted string.
+    return f"House number {house_number} on a street named {street_name}"
+
+
+print(format_address("123 Main Street"))
+# Should print: "House number 123 on a street named Main Street"
+
+print(format_address("1001 1st Ave"))
+# Should print: "House number 1001 on a street named 1st Ave"
+
+print(format_address("55 North Center Drive"))
+# Should print "House number 55 on a street named North Center Drive"
+```
+
+**Question 02**
+
+```python
+def string_words(string):
+    # Complete the return statement using both a string operation and 
+    # a string method in a single line.
+    return len(string.split())
+
+
+print(string_words("Hello, World")) # Should print 2
+print(string_words("Python is awesome")) # Should print 3
+print(string_words("Keep going")) # Should print 2
+print(string_words("Have a nice day")) # Should print 4
+```
+
+**Question 03**
+
+```python
+def combine_lists(list1, list2):
+  combined_list = [] # Initialize an empty list variable
+  list1.reverse() # Reverse the order of "list1"
+  list2 += list1 # Combine the two lists 
+  combined_list = list2
+  return combined_list  
+  
+Jaimes_list = ["Alma", "Chika", "Benjamin", "Jocelyn", "Oakley"]
+Drews_list = ["Minna", "Carol", "Gunnar", "Malena"]
+
+
+print(combine_lists(Jaimes_list, Drews_list))
+# Should print ['Minna', 'Carol', 'Gunnar', 'Malena', 'Oakley', 'Jocelyn', 'Benjamin', 'Chika', 'Alma']
+```
+
+**Question 04**
+
+```python
+def increments(start, end):
+    return [n + 2 for n in range(start, end+1)] # Create the required list comprehension.
+
+
+print(increments(2, 3)) # Should print [4, 5]
+print(increments(1, 5)) # Should print [3, 4, 5, 6, 7]
+print(increments(0, 10)) # Should print [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+```
+
+**Question 05**
+
+```python
+def car_listing(car_prices):
+  result = ""
+  # Complete the for loop to iterate through the key and value items 
+  # in the dictionary.
+  for car, price in car_prices.items(): 
+    result += f"A {car} costs {price} dolloars.\n" # Use a string method to format the required string. 
+  return result
+
+print(car_listing({"Kia Soul":19000, "Lamborghini Diablo":55000, "Ford Fiesta":13000, "Toyota Prius":24000}))
+
+# Should print:
+# A Kia Soul costs 19000 dollars
+# A Lamborghini Diablo costs 55000 dollars
+# A Ford Fiesta costs 13000 dollars
+# A Toyota Prius costs 24000 dollars
+```
+
+**Question 06**
+
+```python
+def setup_guests(guest_list):
+    # loop over the guest list and add each guest to the dictionary with
+    # an initial value of 0
+    result = {} # Initialize a new dictionary 
+    for guest in guest_list: # Iterate over the elements in the list 
+        result.update({guest: 0}) # Add each list element to the dictionary as a key with the starting value of 0
+    return result
+
+guests = ["Adam","Camila","David","Jamal","Charley","Titus","Raj","Noemi","Sakira","Chidi"]
+
+print(setup_guests(guests))
+# Should print {'Adam': 0, 'Camila': 0, 'David': 0, 'Jamal': 0, 'Charley': 0, 'Titus': 0, 'Raj': 0, 'Noemi': 0, 'Sakira': 0, 'Chidi': 0}
+```
+
+**Question 07**
+
+```python
+def setup_gradebook(old_gradebook):
+  # Use a dictionary method to create a new copy of the "old_gradebook".
+  new_gradebook = old_gradebook.copy() 
+    # Complete the for loop to iterate over the new gradebook. 
+  for name in new_gradebook.keys(): 
+    # Use a dictionary operation to reset the grade values to 0.
+    new_gradebook.update({name:0})
+  return new_gradebook
+
+fall_gradebook = {"James": 93, "Felicity": 98, "Barakaa": 80}
+print(setup_gradebook(fall_gradebook))
+# Should output {'James': 0, 'Felicity': 0, 'Barakaa': 0}
+```
+
+**Question 08**
+
+transc, nd
+
+**Question 09**
+
+['red', 'white', 'yellow', 'blue']
+
+**Question 10**
+
+['Aniyah Cook', 'Ines Bisset', 'Wayne Branon'']

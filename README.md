@@ -1,6 +1,6 @@
 # Google IT Automation with Python Professional Certificate
 
-Courses 
+Courses
 
 1. Crash Course on Python
    - 26 hours

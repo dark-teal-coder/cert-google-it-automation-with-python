@@ -1,6 +1,18 @@
 # Notes on Crash Course on Python
 
-## Week 1 >> Week 1 Graded Assessment
+## Week 1
+
+### Course Introduction
+
+### Introduction to Programming
+
+### Introduction to Python
+
+### Hello World
+
+### Module Review
+
+#### Week 1 Graded Assessment
 
 **Question 01**
 
@@ -64,7 +76,17 @@ computers_per_year = total_computers / replacement_cycle
 print(computers_per_year) # Should print 120.0
 ```
 
-## Week 2 >> Week 2 Graded Assessment
+## Week 2
+
+### Expressions and Variables
+
+### Functions
+
+### Conditionals
+
+### Module Review
+
+#### Week 2 Graded Assessment
 
 **Question 01**
 
@@ -160,7 +182,17 @@ print(make_positive(5))    # Should print 5
 
 Self-documenting code
 
-## Week 3 >> Week 3 Graded Assessment
+## Week 3
+
+### While Loops
+
+### For Loops
+
+### Recursion (Optional)
+
+### Module Review
+
+#### Week 3 Graded Assessment
 
 **Question 01**
 
@@ -294,7 +326,17 @@ The "sum" variable is initialized with the wrong value
 
 When called with 0, it triggers an infinite loop
 
-## Week 4 >> Week 4 Graded Assessment
+## Week 4
+
+### Strings
+
+### Lists
+
+### Dictionaries
+
+### Module Review
+
+#### Week 4 Graded Assessment
 
 **Question 01**
 

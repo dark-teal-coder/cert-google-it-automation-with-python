@@ -60,11 +60,40 @@ for i in range(5):
 
 ***Solution 05***
 
+Multiple answers: 
+
 - [x] Python is used in fast-growing areas of IT, like machine learning and data analytics.
 - [x] Python works well as a scripting language for IT automation.
 - [x] Python can be used to calculate statistics, run e-commerce sites, process images, interact with web services, and more.
 
 ### Hello World
+
+#### Practice Quiz: Hello World
+
+***Solution 01***
+
+- [x] Functions are pieces of code that perform a unit of work.
+
+***Solution 02***
+
+- [x] Keywords are reserved words that are used to construct instructions.
+
+***Solution 03***
+
+- [x] The print function outputs messages to the screen
+
+***Solution 04***
+
+```python
+print("Programming in Python is fun!")
+```
+
+***Solution 05***
+
+```python
+ratio = (1 + 5**(1/2))/2
+print(ratio)
+```
 
 ### Module Review
 

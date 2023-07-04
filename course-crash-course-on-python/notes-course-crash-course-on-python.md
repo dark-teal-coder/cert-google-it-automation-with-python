@@ -479,7 +479,7 @@ print(setup_gradebook(fall_gradebook))
 
 ***Question 10***
 
-- [x] ['Aniyah Cook', 'Ines Bisset', 'Wayne Branon'']
+- [x] ['Aniyah Cook', 'Ines Bisset', 'Wayne Branon']
 
 ## Week 5
 

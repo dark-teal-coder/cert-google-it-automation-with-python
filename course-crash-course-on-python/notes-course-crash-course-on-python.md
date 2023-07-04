@@ -16,7 +16,7 @@
 
 ***Question 01***
 
-Step-by-step instructions on how to complete a set of tasks, to be executed by a computer.
+- [x] Step-by-step instructions on how to complete a set of tasks, to be executed by a computer.
 
 ***Question 02***
 
@@ -35,11 +35,11 @@ Multiple answers:
 
 ***Question 04***
 
-Syntax
+- [x] Syntax
 
 ***Question 05***
 
-Code is similar to the English language.
+- [x] Code is similar to the English language.
 
 ***Question 06***
 
@@ -49,7 +49,7 @@ print("I am writing Python code!")
 
 ***Question 07***
 
-3.16
+- [x] 3.16
 
 ***Question 08***
 
@@ -99,11 +99,11 @@ print(IP_address + " is the IP address of " + host_name)
 
 ***Question 02***
 
-False
+- [x] False
 
 ***Question 03***
 
-A comparison
+- [x] A comparison
 
 ***Question 04***
 
@@ -128,7 +128,7 @@ print(speeding_ticket(77)) # Should print Speeding
 
 ***Question 05***
 
-15
+- [x] 15
 
 ***Question 06***
 
@@ -155,11 +155,11 @@ print(identify_IP("")) # Should Should print 'unknown'
 
 ***Question 07***
 
-2
+- [x] 2
 
 ***Question 08***
 
-False
+- [x] False
 
 ***Question 09***
 
@@ -180,7 +180,7 @@ print(make_positive(5))    # Should print 5
 
 ***Question 10***
 
-Self-documenting code
+- [x] Self-documenting code
 
 ## Week 3
 
@@ -312,19 +312,19 @@ print(all_numbers(0,0))  # Should be 0
 
 ***Question 07***
 
-The "sum" variable is initialized with the wrong value
+- [x] The "sum" variable is initialized with the wrong value
 
 ***Question 08***
 
-5
+- [x] 5
 
 ***Question 09***
 
-0
+- [x] 0
 
 ***Question 10***
 
-When called with 0, it triggers an infinite loop
+- [x] When called with 0, it triggers an infinite loop
 
 ## Week 4
 
@@ -471,15 +471,15 @@ print(setup_gradebook(fall_gradebook))
 
 ***Question 08***
 
-transc, nd
+- [x] transc, nd
 
 ***Question 09***
 
-['red', 'white', 'yellow', 'blue']
+- [x] ['red', 'white', 'yellow', 'blue']
 
 ***Question 10***
 
-['Aniyah Cook', 'Ines Bisset', 'Wayne Branon'']
+- [x] ['Aniyah Cook', 'Ines Bisset', 'Wayne Branon'']
 
 ## Week 5
 

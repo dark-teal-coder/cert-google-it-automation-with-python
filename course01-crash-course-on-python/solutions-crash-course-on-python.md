@@ -1,4 +1,4 @@
-# Notes on Crash Course on Python
+# Solutions to Problems in Crash Course on Python
 
 ## Week 1
 
@@ -60,7 +60,7 @@ for i in range(5):
 
 ***Solution 05***
 
-Multiple answers: 
+Multiple answers:
 
 - [x] Python is used in fast-growing areas of IT, like machine learning and data analytics.
 - [x] Python works well as a scripting language for IT automation.

@@ -1,1 +1,1 @@
-# Notes on Introduction to Git and GitHub
+# Solutions to Problems in Introduction to Git and GitHub

@@ -33,6 +33,37 @@ Multiple answers:
 
 ### Introduction to Python
 
+#### Practice Quiz: Introduction to Python
+
+***Solution 01***
+
+```python
+print("My first Python program")
+```
+
+***Solution 02***
+
+- [x] General purpose scripting language
+
+***Solution 03***
+
+```python
+print("Have a nice day")
+```
+
+***Solution 04***
+
+```python
+for i in range(5):
+  print("This is fun!")
+```
+
+***Solution 05***
+
+- [x] Python is used in fast-growing areas of IT, like machine learning and data analytics.
+- [x] Python works well as a scripting language for IT automation.
+- [x] Python can be used to calculate statistics, run e-commerce sites, process images, interact with web services, and more.
+
 ### Hello World
 
 ### Module Review

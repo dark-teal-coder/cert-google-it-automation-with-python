@@ -165,6 +165,51 @@ print(computers_per_year) # Should print 120.0
 
 ### Expressions and Variables
 
+#### Practice Quiz: Expressions and Variables
+
+***Solution 01***
+
+```python
+print("2 + 2 = " + str(2 + 2))
+```
+
+***Solution 02***
+
+```python
+bill = 47.28
+tip = bill * 0.15
+total = bill + tip
+share = total / 2
+print("Each person needs to pay:" + str(share))
+```
+
+***Solution 03***
+
+```python
+numerator = 10
+denominator = 10
+result = int(numerator / denominator)
+print(result)
+```
+
+***Solution 04***
+
+```python
+word1 = "How"
+word2 = "do"
+word3 = "you"
+word4 = "like"
+word5 = "Python"
+word6 = "so"
+word7 = "far?"
+
+print(word1, word2, word3, word4, word5, word6, word7, sep=" ")
+```
+
+***Solution 05***
+
+- [x] An expression
+
 ### Functions
 
 ### Conditionals

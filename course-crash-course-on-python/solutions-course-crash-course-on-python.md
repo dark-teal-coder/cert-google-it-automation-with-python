@@ -1,4 +1,4 @@
-# Notes on Crash Course on Python
+# Solutions to Problems in Crash Course on Python
 
 ## Week 1
 

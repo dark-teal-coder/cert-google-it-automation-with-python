@@ -14,7 +14,7 @@
 
 #### Week 1 Graded Assessment
 
-##### Question 01
+***Question 01***
 
 Step-by-step instructions on how to complete a set of tasks, to be executed by a computer.
 

@@ -8,26 +8,26 @@
 
 #### Practice Quiz: Introduction to Programming
 
-***Question 01***
+***Solution 01***
 
 - [x] A list of instructions that the computer has to follow to reach a goal
 
-***Question 02***
+***Solution 02***
 
 - [x] The rules of how to express things in that language
 
-***Question 03***
+***Solution 03***
 
 - [x] There’s not much difference, but scripts are usually simpler and shorter.
 
-***Question 04***
+***Solution 04***
 
 Multiple answers:
 
 - [x] Generating a sales report, split by region and product type
 - [x] Copying a file to all computers in a company
 
-***Question 05***
+***Solution 05***
 
 - [x] The intended meaning or logic of coded statements
 
@@ -39,11 +39,11 @@ Multiple answers:
 
 #### Week 1 Graded Assessment
 
-***Question 01***
+***Solution 01***
 
 - [x] Step-by-step instructions on how to complete a set of tasks, to be executed by a computer.
 
-***Question 02***
+***Solution 02***
 
 Multiple answers:
 
@@ -51,39 +51,39 @@ Multiple answers:
 - [x] Programming languages are used to write computer programs and scripts.
 - [x] Some common programming languages include Python, Java, C, C++, C#, and R.
 
-***Question 03***
+***Solution 03***
 
 Multiple answers:
 
 - [x] Detecting and removing duplicate data
 - [x] Updating specific files on multiple computers
 
-***Question 04***
+***Solution 04***
 
 - [x] Syntax
 
-***Question 05***
+***Solution 05***
 
 - [x] Code is similar to the English language.
 
-***Question 06***
+***Solution 06***
 
 ```python
 print("I am writing Python code!")
 ```
 
-***Question 07***
+***Solution 07***
 
 - [x] 3.16
 
-***Question 08***
+***Solution 08***
 
 ```python
 # It should print: 525600
 print(365*24*60)
 ```
 
-***Question 09***
+***Solution 09***
 
 ```python
 ## It should print: 100000000
@@ -91,7 +91,7 @@ print(365*24*60)
 print(10***8)
 ```
 
-***Question 10***
+***Solution 10***
 
 ```python
 total_computers = 30*20
@@ -113,7 +113,7 @@ print(computers_per_year) # Should print 120.0
 
 #### Week 2 Graded Assessment
 
-***Question 01***
+***Solution 01***
 
 ```python
 IP_address = "192.168.1.10"
@@ -122,15 +122,15 @@ print(IP_address + " is the IP address of " + host_name)
 # Should print "192.168.1.10 is the IP address of Printer Server 1"
 ```
 
-***Question 02***
+***Solution 02***
 
 - [x] False
 
-***Question 03***
+***Solution 03***
 
 - [x] A comparison
 
-***Question 04***
+***Solution 04***
 
 ```python
 def speeding_ticket(speed):
@@ -151,11 +151,11 @@ print(speeding_ticket(35)) # Should print Safe
 print(speeding_ticket(77)) # Should print Speeding
 ```
 
-***Question 05***
+***Solution 05***
 
 - [x] 15
 
-***Question 06***
+***Solution 06***
 
 ```python
 def identify_IP(IP_address):
@@ -178,15 +178,15 @@ print(identify_IP("10.10.10.10")) # Should print 'unknown'
 print(identify_IP("")) # Should Should print 'unknown'
 ```
 
-***Question 07***
+***Solution 07***
 
 - [x] 2
 
-***Question 08***
+***Solution 08***
 
 - [x] False
 
-***Question 09***
+***Solution 09***
 
 ```python
 def make_positive(number):
@@ -203,7 +203,7 @@ print(make_positive(-.25)) # Should print 0.25
 print(make_positive(5))    # Should print 5
 ```
 
-***Question 10***
+***Solution 10***
 
 - [x] Self-documenting code
 
@@ -219,7 +219,7 @@ print(make_positive(5))    # Should print 5
 
 #### Week 3 Graded Assessment
 
-***Question 01***
+***Solution 01***
 
 ```python
 number = 15 # Initialize the variable
@@ -230,7 +230,7 @@ while number >= 5: # Complete the while loop condition
 # Should print 15 10 5
 ```
 
-***Question 02***
+***Solution 02***
 
 ```python
 for number in range(1, 5+1):
@@ -248,7 +248,7 @@ for number in range(1, 5+1):
 # odd
 ```
 
-***Question 03***
+***Solution 03***
 
 ```python
 def factorial(n):
@@ -266,7 +266,7 @@ print(factorial(9)) # Should print 362880
 print(factorial(1)) # Should print 1
 ```
 
-***Question 04***
+***Solution 04***
 
 ```python
 def multiplication_table(start, stop):
@@ -284,7 +284,7 @@ def multiplication_table(start, stop):
 multiplication_table(1, 3)
 ```
 
-***Question 05***
+***Solution 05***
 
 ```python
 def counter(start, stop):
@@ -310,7 +310,7 @@ print(counter(2, 1)) # Should be "Counting down: 2,1"
 print(counter(5, 5)) # Should be "Counting up: 5"
 ```
 
-***Question 06***
+***Solution 06***
 
 ```python
 def all_numbers(minimum, maximum):
@@ -335,19 +335,19 @@ print(all_numbers(0,5))  # Should be 0 1 2 3 4 5
 print(all_numbers(0,0))  # Should be 0
 ```
 
-***Question 07***
+***Solution 07***
 
 - [x] The "sum" variable is initialized with the wrong value
 
-***Question 08***
+***Solution 08***
 
 - [x] 5
 
-***Question 09***
+***Solution 09***
 
 - [x] 0
 
-***Question 10***
+***Solution 10***
 
 - [x] When called with 0, it triggers an infinite loop
 
@@ -363,7 +363,7 @@ print(all_numbers(0,0))  # Should be 0
 
 #### Week 4 Graded Assessment
 
-***Question 01***
+***Solution 01***
 
 ```python
 def format_address(address_string):
@@ -395,7 +395,7 @@ print(format_address("55 North Center Drive"))
 # Should print "House number 55 on a street named North Center Drive"
 ```
 
-***Question 02***
+***Solution 02***
 
 ```python
 def string_words(string):
@@ -410,7 +410,7 @@ print(string_words("Keep going")) # Should print 2
 print(string_words("Have a nice day")) # Should print 4
 ```
 
-***Question 03***
+***Solution 03***
 
 ```python
 def combine_lists(list1, list2):
@@ -428,7 +428,7 @@ print(combine_lists(Jaimes_list, Drews_list))
 # Should print ['Minna', 'Carol', 'Gunnar', 'Malena', 'Oakley', 'Jocelyn', 'Benjamin', 'Chika', 'Alma']
 ```
 
-***Question 04***
+***Solution 04***
 
 ```python
 def increments(start, end):
@@ -440,7 +440,7 @@ print(increments(1, 5)) # Should print [3, 4, 5, 6, 7]
 print(increments(0, 10)) # Should print [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 ```
 
-***Question 05***
+***Solution 05***
 
 ```python
 def car_listing(car_prices):
@@ -460,7 +460,7 @@ print(car_listing({"Kia Soul":19000, "Lamborghini Diablo":55000, "Ford Fiesta":1
 # A Toyota Prius costs 24000 dollars
 ```
 
-***Question 06***
+***Solution 06***
 
 ```python
 def setup_guests(guest_list):
@@ -477,7 +477,7 @@ print(setup_guests(guests))
 # Should print {'Adam': 0, 'Camila': 0, 'David': 0, 'Jamal': 0, 'Charley': 0, 'Titus': 0, 'Raj': 0, 'Noemi': 0, 'Sakira': 0, 'Chidi': 0}
 ```
 
-***Question 07***
+***Solution 07***
 
 ```python
 def setup_gradebook(old_gradebook):
@@ -494,15 +494,15 @@ print(setup_gradebook(fall_gradebook))
 # Should output {'James': 0, 'Felicity': 0, 'Barakaa': 0}
 ```
 
-***Question 08***
+***Solution 08***
 
 - [x] transc, nd
 
-***Question 09***
+***Solution 09***
 
 - [x] ['red', 'white', 'yellow', 'blue']
 
-***Question 10***
+***Solution 10***
 
 - [x] ['Aniyah Cook', 'Ines Bisset', 'Wayne Branon']
 

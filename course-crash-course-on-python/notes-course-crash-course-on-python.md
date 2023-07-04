@@ -6,6 +6,31 @@
 
 ### Introduction to Programming
 
+#### Practice Quiz: Introduction to Programming
+
+***Question 01***
+
+- [x] A list of instructions that the computer has to follow to reach a goal
+
+***Question 02***
+
+- [x] The rules of how to express things in that language
+
+***Question 03***
+
+- [x] There’s not much difference, but scripts are usually simpler and shorter.
+
+***Question 04***
+
+Multiple answers:
+
+- [x] Generating a sales report, split by region and product type
+- [x] Copying a file to all computers in a company
+
+***Question 05***
+
+- [x] The intended meaning or logic of coded statements
+
 ### Introduction to Python
 
 ### Hello World

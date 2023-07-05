@@ -425,7 +425,7 @@ print(make_positive(5))    # Should print 5
 
 ***Solution 10***
 
-- [x] while loops tell the computer to repeatedly execute a set of instructions while a condition is true.  
+- [x] while loops tell the computer to repeatedly execute a set of instructions while a condition is true.
 
 ***Solution 02***
 
@@ -440,7 +440,7 @@ def is_power_of_two(number):
   # without leaving a remainder. How can you change the while loop to
   # avoid a Python ZeroDivisionError?
   while number % 2 == 0:
-    if number == 0: 
+    if number == 0:
       return False
       break
     number = number / 2
@@ -449,7 +449,7 @@ def is_power_of_two(number):
   if number == 1:
     return True
   return False
-  
+
 
 # Calls to the function
 print(is_power_of_two(0)) # Should be False
@@ -469,10 +469,10 @@ def sum_divisors(number):
   divisor = 1
   total = 0
 
-  # Avoid dividing by 0 and negative numbers in the while loop by 
+  # Avoid dividing by 0 and negative numbers in the while loop by
   # exiting the function if "number" is less than one
   if number < 1:
-    return 0 
+    return 0
 
   # Complete the while loop
   while divisor < number:
@@ -481,7 +481,7 @@ def sum_divisors(number):
     # Increment the correct variable
     divisor += 1
 
-  # Return the correct variable 
+  # Return the correct variable
   return total
 
 
@@ -503,33 +503,33 @@ def multiplication_table(number):
 
     # Complete the while loop condition.
     while multiplier <= 5:
-        result = number * multiplier 
+        result = number * multiplier
         if  result > 25 :
             # Enter the action to take if the result is greater than 25
             break
         print(str(number) + "x" + str(multiplier) + "=" + str(result))
-        
+
         # Increment the appropriate variable
         multiplier += 1
 
 
-multiplication_table(3) 
-# Should print: 
-# 3x1=3 
-# 3x2=6 
-# 3x3=9 
-# 3x4=12 
+multiplication_table(3)
+# Should print:
+# 3x1=3
+# 3x2=6
+# 3x3=9
+# 3x4=12
 # 3x5=15
 
-multiplication_table(5) 
-# Should print: 
+multiplication_table(5)
+# Should print:
 # 5x1=5
 # 5x2=10
 # 5x3=15
 # 5x4=20
 # 5x5=25
 
-multiplication_table(8) 
+multiplication_table(8)
 # Should print:
 # 8x1=8
 # 8x2=16
@@ -537,6 +537,54 @@ multiplication_table(8)
 ```
 
 ### For Loops
+
+#### Practice Quiz: For Loops
+
+***Solution 01***
+
+- [x] While loops iterate while a condition is true, for loops iterate through a sequence of elements.
+
+***Solution 02***
+
+- [x] Choose this code below:
+
+```python
+for n in range(6,18+1,3):
+    print(n*2)
+```
+
+***Solution 03***
+
+Multiple answers:
+
+- [x] Choose this code below:
+
+```python
+for n in range(19):
+    if n % 2 == 0:
+        print(n)
+```
+
+- [x] Choose this code below:
+
+```python
+for n in range(10):
+    print(n+n)
+```
+
+***Solution 04***
+
+```python
+for x in range(1, 10+1):
+    print(x**3)
+```
+
+***Solution 05***
+
+```python
+for x in range(0, 101, 7): 
+    print(x)
+```
 
 ### Recursion (Optional)
 

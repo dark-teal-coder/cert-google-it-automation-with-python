@@ -582,7 +582,7 @@ for x in range(1, 10+1):
 ***Solution 05***
 
 ```python
-for x in range(0, 101, 7): 
+for x in range(0, 101, 7):
     print(x)
 ```
 
@@ -606,9 +606,9 @@ def is_power_of(number, base):
   # Base case: when number is smaller than base.
   if number < base:
     # If number is equal to 1, it's a power (base**0).
-    if number == 1: 
-      return True 
-    else: 
+    if number == 1:
+      return True
+    else:
       return False
   # Recursive case: keep dividing number by base.
   return is_power_of(number/base, base)
@@ -638,7 +638,7 @@ print(count_users("everyone")) # Should be 18
 
 ```python
 def sum_positive_numbers(n):
-  if n < 1: 
+  if n < 1:
     return 0
   return n + sum_positive_numbers(n - 1)
 
@@ -785,6 +785,105 @@ print(all_numbers(0,0))  # Should be 0
 ## Week 4
 
 ### Strings
+
+#### Practice Quiz: Strings
+
+***Solution 01***
+
+```python
+def is_palindrome(input_string):
+    # Two variables are initialized as string date types using empty
+    # quotes: "reverse_string" to hold the "input_string" in reverse
+    # order and "new_string" to hold the "input_string" minus the
+    # spaces between words, if any are found.
+    new_string = ""
+    reverse_string = ""
+
+    # Complete the for loop to iterate through each letter of the
+    # "input_string"
+    for letter in input_string:
+
+        # The if-statement checks if the "letter" is not a space.
+        if letter != " ":
+
+            # If True, add the "letter" to the end of "new_string" and
+            # to the front of "reverse_string". If False (if a space
+            # is detected), no action is needed. Exit the if-block.
+            new_string = new_string + letter
+            reverse_string = letter + reverse_string
+
+    # Complete the if-statement to compare the "new_string" to the
+    # "reverse_string". Remember that Python is case-sensitive when
+    # creating the string comparison code.
+    if new_string.lower() == reverse_string.lower():
+        # If True, the "input_string" contains a palindrome.
+        return True
+
+    # Otherwise, return False.
+    return False
+
+
+print(is_palindrome("Never Odd or Even")) # Should be True
+print(is_palindrome("abc")) # Should be False
+print(is_palindrome("kayak")) # Should be True
+```
+
+***Solution 02***
+
+```python
+def convert_distance(miles):
+    km = miles * 1.6
+    result = "{} miles equals {:.1f} km".format(miles, km)
+    return result
+
+
+print(convert_distance(12)) # Should be: 12 miles equals 19.2 km
+print(convert_distance(5.5)) # Should be: 5.5 miles equals 8.8 km
+print(convert_distance(11)) # Should be: 11 miles equals 17.6 km
+```
+
+***Solution 03***
+
+- [x] `print(Weather[:4])`
+
+***Solution 04***
+
+```python
+def nametag(first_name, last_name):
+    return("{} {}.".format(first_name, last_name[0]))
+
+print(nametag("Jane", "Smith"))
+# Should display "Jane S."
+print(nametag("Francesco", "Rinaldi"))
+# Should display "Francesco R."
+print(nametag("Jean-Luc", "Grand-Pierre"))
+# Should display "Jean-Luc G."
+```
+
+***Solution 05***
+
+```python
+def replace_ending(sentence, old, new):
+    # Check if the old string is at the end of the sentence
+    if old == sentence[-len(old):]:
+        # Using i as the slicing index, combine the part
+        # of the sentence up to the matched string at the end with the new string
+        i = -len(old)
+        new_sentence = sentence[:i] + new
+        return new_sentence
+
+    # Return the original sentence if there is no match
+    return sentence
+
+print(replace_ending("It's raining cats and cats", "cats", "dogs"))
+# Should display "It's raining cats and dogs"
+print(replace_ending("She sells seashells by the seashore", "seashells", "donuts"))
+# Should display "She sells seashells by the seashore"
+print(replace_ending("The weather is nice in May", "may", "april"))
+# Should display "The weather is nice in May"
+print(replace_ending("The weather is nice in May", "May", "April"))
+# Should display "The weather is nice in April"
+```
 
 ### Lists
 

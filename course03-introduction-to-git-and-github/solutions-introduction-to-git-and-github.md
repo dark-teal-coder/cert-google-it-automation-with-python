@@ -12,3 +12,12 @@
 
 ### Module 1 Review
 
+## Week 2
+
+### Advanced Git interaction
+
+### Undoing Things
+
+### Branching and Merging
+
+### Module 2 Review

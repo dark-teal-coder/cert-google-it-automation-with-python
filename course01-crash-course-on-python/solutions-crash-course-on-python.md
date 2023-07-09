@@ -95,7 +95,7 @@ ratio = (1 + 5**(1/2))/2
 print(ratio)
 ```
 
-### Module Review
+### Module 1 Review
 
 #### Week 1 Graded Assessment
 
@@ -319,7 +319,7 @@ print(calculate_storage(4097)) # Should be 8192
 print(calculate_storage(6000)) # Should be 8192
 ```
 
-### Module Review
+### Module 2 Review
 
 #### Week 2 Graded Assessment
 
@@ -646,7 +646,7 @@ print(sum_positive_numbers(3)) # Should be 6
 print(sum_positive_numbers(5)) # Should be 15
 ```
 
-### Module Review
+### Module 3 Review
 
 #### Week 3 Graded Assessment
 
@@ -1029,7 +1029,7 @@ groceries = {"bananas": 1.56, "apples": 2.50, "oranges": 0.99, "bread": 4.59,
 print(add_prices(groceries)) # Should print 28.44
 ```
 
-### Module Review
+### Module 4 Review
 
 #### Week 4 Graded Assessment
 
@@ -1184,7 +1184,7 @@ print(setup_gradebook(fall_gradebook))
 
 ### Code Reuse
 
-### Module Review
+### Module 5 Review
 
 #### Practice Notebook: Object Oriented Programming (Optional)
 

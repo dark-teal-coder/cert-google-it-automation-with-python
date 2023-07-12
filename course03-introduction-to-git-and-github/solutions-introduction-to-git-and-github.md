@@ -6,6 +6,28 @@
 
 ### Before Version Control
 
+#### Practice Quiz: Before Version Control
+
+***Solution 01***
+
+- [x] `patch fix_names.conf < fix_names.patch`
+
+***Solution 02***
+
+- [x] `diff fix_permissions.py fix_permissions_modified.py > fix_permissions.patch`
+
+***Solution 03***
+
+- [x] `wdiff`
+
+***Solution 04***
+
+- [x] Using the exit command from the sys module
+
+***Solution 05***
+
+- [x] Diff file
+
 ### Version Control Systems
 
 ### Using Git

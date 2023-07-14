@@ -30,6 +30,32 @@
 
 ### Version Control Systems
 
+#### Practice Quiz: Version Control Systems
+
+***Solution 01***
+
+Multiple answers:
+
+- [x] Git retains local copies of repositories, resulting in fast operations.
+- [x] If something breaks due to a change, you can fix the problem by reverting to a working version before the change.
+- [x] Git allows you to review the history of your project.
+
+***Solution 02***
+
+- [x] Linus Torvalds
+
+***Solution 03***
+
+- [x] Version control
+
+***Solution 04***
+
+- [x] commit
+
+***Solution 05***
+
+- [x] repositories
+
 ### Using Git
 
 ### Module 1 Review

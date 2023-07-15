@@ -58,6 +58,28 @@ Multiple answers:
 
 ### Using Git
 
+#### Practice Quiz: Using Git
+
+***Solution 01***
+
+- [x] `git add`
+
+***Solution 02***
+
+- [x] `git log`
+
+***Solution 03***
+
+- [x] `git add`
+
+***Solution 04***
+
+- [x] `git config -l`
+
+***Solution 05***
+
+- [x] `git status`
+
 ### Module 1 Review
 
 ## Week 2

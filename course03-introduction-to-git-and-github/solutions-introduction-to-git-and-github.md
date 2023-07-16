@@ -86,6 +86,28 @@ Multiple answers:
 
 ### Advanced Git interaction
 
+#### Practice Quiz: Advanced Git Interaction
+
+***Solution 01***
+
+- [x] `git mv`
+
+***Solution 02***
+
+- [x] A file containing a list of files or filename patterns for Git to skip for the current repo.
+
+***Solution 03***
+
+- [x] New files
+
+***Solution 04***
+
+- [x] The currently checked-out snapshot of your project
+
+***Solution 05***
+
+- [x] `--stat`
+
 ### Undoing Things
 
 ### Branching and Merging

@@ -328,8 +328,8 @@ print(calculate_storage(6000)) # Should be 8192
 ```python
 IP_address = "192.168.1.10"
 host_name = "Printer Server 1"
+## Output: "192.168.1.10 is the IP address of Printer Server 1"
 print(IP_address + " is the IP address of " + host_name)
-# Should print "192.168.1.10 is the IP address of Printer Server 1"
 ```
 
 ***Solution 02***
@@ -353,12 +353,12 @@ def speeding_ticket(speed):
     return ticket
 
 
-print(speeding_ticket(87)) # Should print Reckless Driving
-print(speeding_ticket(66)) # Should print Speeding
-print(speeding_ticket(65)) # Should print Safe
-print(speeding_ticket(85)) # Should print Reckless Driving
-print(speeding_ticket(35)) # Should print Safe
-print(speeding_ticket(77)) # Should print Speeding
+print(speeding_ticket(87)) ## Output: "Reckless Driving"
+print(speeding_ticket(66)) ## Output: "Speeding"
+print(speeding_ticket(65)) ## Output: "Safe"
+print(speeding_ticket(85)) ## Output: "Reckless Driving"
+print(speeding_ticket(35)) ## Output: "Safe"
+print(speeding_ticket(77)) ## Output: "Speeding"
 ```
 
 ***Solution 05***
@@ -380,12 +380,12 @@ def identify_IP(IP_address):
     return IP_description
 
 
-print(identify_IP("8.8.4.4")) # Should print 'Google DNS server'
-print(identify_IP("142.250.191.46")) # Should print 'Google.com'
-print(identify_IP("192.168.1.1")) # Should print 'Network router'
-print(identify_IP("8.8.8.8")) # Should print 'Google DNS server'
-print(identify_IP("10.10.10.10")) # Should print 'unknown'
-print(identify_IP("")) # Should Should print 'unknown'
+print(identify_IP("8.8.4.4")) ## Output: "Google DNS server"
+print(identify_IP("142.250.191.46")) ## Output: "Google.com"
+print(identify_IP("192.168.1.1")) ## Output: "Network router"
+print(identify_IP("8.8.8.8")) ## Output: "Google DNS server"
+print(identify_IP("10.10.10.10")) ## Output: "unknown"
+print(identify_IP("")) ## Output: "unknown"
 ```
 
 ***Solution 07***
@@ -401,16 +401,16 @@ print(identify_IP("")) # Should Should print 'unknown'
 ```python
 def make_positive(number):
     if number < 0:
-        result = number * -1
+        result = number * -1 
     else:
         result = number
     return result
 
 
-print(make_positive(-4))   # Should print 4
-print(make_positive(0))    # Should print 0
-print(make_positive(-.25)) # Should print 0.25
-print(make_positive(5))    # Should print 5
+print(make_positive(-4)) ## Output: 4
+print(make_positive(0)) ## Output: 0
+print(make_positive(-.25)) ## Output: 0.25
+print(make_positive(5)) ## Output: 5
 ```
 
 ***Solution 10***

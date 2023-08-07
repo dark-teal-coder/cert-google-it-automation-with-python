@@ -368,7 +368,7 @@ print(speeding_ticket(77)) ## Output: "Speeding"
 
 ***Solution 05***
 
-- [x] 15
+- [x] True
 
 ***Solution 06***
 
@@ -395,7 +395,7 @@ print(identify_IP("")) ## Output: "unknown"
 
 ***Solution 07***
 
-- [x] 2
+`15`
 
 ***Solution 08***
 
@@ -404,23 +404,29 @@ print(identify_IP("")) ## Output: "unknown"
 ***Solution 09***
 
 ```python
-def make_positive(number):
-    if number < 0:
-        result = number * -1
+def safe_division(numerator, denominator):
+    ## Complete the if block to catch any "denominator" variables equal to 0.
+    if denominator == 0:
+        result = 0
     else:
-        result = number
+        ## Complete the division equation.
+        result = numerator / denominator
     return result
 
 
-print(make_positive(-4)) ## Output: 4
-print(make_positive(0)) ## Output: 0
-print(make_positive(-.25)) ## Output: 0.25
-print(make_positive(5)) ## Output: 5
+print(safe_division(5, 5)) ## Output: 1.0
+print(safe_division(5, 4)) ## Output: 1.25
+print(safe_division(5, 0)) ## Output: 0
+print(safe_division(0, 5)) ## Output: 0.0
 ```
 
 ***Solution 10***
 
-- [x] Self-documenting code
+Multiple answers:
+
+- [x] Cleaning up duplicate code by creating a function that can be reused
+- [x] Adding comments
+- [x] Refactoring the code
 
 ## Week 3
 

@@ -2,11 +2,11 @@
 
 There are a few types of questions in the quizzes in the course. See the list of the question types below.
 
-1. Multiple choice 
-2. Code 
+1. Multiple choice
+2. Code
 3. Value input/output
 
-For type 1, start the solution with `- [x]`; for type 2, use triple backticks to create a Python code block; for type 3, use single backticks. 
+For type 1, start the solution with `- [x]`; for type 2, use triple backticks to create a Python code block; for type 3, use single backticks.
 
 ## Week 1
 
@@ -409,7 +409,7 @@ print(identify_IP("")) ## Output: "unknown"
 ```python
 def make_positive(number):
     if number < 0:
-        result = number * -1 
+        result = number * -1
     else:
         result = number
     return result
@@ -662,11 +662,11 @@ print(sum_positive_numbers(5)) # Should be 15
 
 ```python
 ## Initialize the variable
-number = 15 
-while number >= 5: 
+number = 15
+while number >= 5:
     print(number, end=" ")
     ## Decrement the variable
-    number -= 5 
+    number -= 5
 
 ## Output: 15 10 5
 ```
@@ -711,12 +711,12 @@ print(even_numbers(0)) ## Output: 1
 ```python
 def rows_asterisks(rows):
     ## Complete the outer loop range to control the number of rows
-    for x in range(rows): 
+    for x in range(rows):
         ## Complete the inner loop range to control the number of asterisks per row
-        for y in range(x+1): 
+        for y in range(x+1):
             ## Print 1 asterisk and 1 space
             print("*", end=" ")
-        ## An empty print() function inserts a line break at the end of the row 
+        ## An empty print() function inserts a line break at the end of the row
         print()
 
 
@@ -751,13 +751,13 @@ print(countdown(0)) ## Output: "Cannot count down to 0"
 def odd_numbers(maximum):
     ## Initialize variable as a string
     return_string = ""
-    ## Complete the for loop with a range that includes all odd numbers 
+    ## Complete the for loop with a range that includes all odd numbers
     ## up to and including the "maximum" value.
-    for num in range(0, maximum+1): 
+    for num in range(0, maximum+1):
         ## Complete the body of the loop by appending the odd number
         ## followed by a space to the "return_string" variable.
         if num % 2 == 1:
-            return_string += str(num) + " " 
+            return_string += str(num) + " "
     ## strip() will remove the final " " space at the end of the "return_string".
     return return_string.strip()
 

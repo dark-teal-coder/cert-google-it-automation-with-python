@@ -1,5 +1,13 @@
 # Solutions to Problems in Crash Course on Python
 
+There are a few types of questions in the quizzes in the course. See the list of the question types below.
+
+1. Multiple choice 
+2. Code 
+3. Value input/output
+
+For type 1, start the solution with `- [x]`; for type 2, use triple backticks to create a Python code block; for type 3, use single backticks. 
+
 ## Week 1
 
 ### Course Introduction

@@ -423,7 +423,7 @@ print(make_positive(5)) ## Output: 5
 
 #### Practice Quiz: While Loops
 
-***Solution 10***
+***Solution 01***
 
 - [x] while loops tell the computer to repeatedly execute a set of instructions while a condition is true.
 
@@ -653,12 +653,14 @@ print(sum_positive_numbers(5)) # Should be 15
 ***Solution 01***
 
 ```python
-number = 15 # Initialize the variable
-while number >= 5: # Complete the while loop condition
+## Initialize the variable
+number = 15 
+while number >= 5: 
     print(number, end=" ")
-    number -= 5 # Decrement the variable
+    ## Decrement the variable
+    number -= 5 
 
-# Should print 15 10 5
+## Output: 15 10 5
 ```
 
 ***Solution 02***
@@ -671,12 +673,12 @@ for number in range(1, 5+1):
         print("odd")
 
 
-# Should print:
-# odd
-# even
-# odd
-# even
-# odd
+## Output:
+## odd
+## even
+## odd
+## even
+## odd
 ```
 
 ***Solution 03***
@@ -686,29 +688,31 @@ def factorial(n):
     result = n
     start = n
     n -= 1
-    while n > 0: # The while loop should execute as long as n is greater than 0
-        result *= n # Multiply the current result by the current value of n
-        n -= 1 # Decrement the appropriate variable by -1
+    while n > 0: ## The while loop should execute as long as n is greater than 0
+        ## Multiply the current result by the current value of n
+        result *= n 
+        ## Decrement the appropriate variable by -1
+        n -= 1 
     return result
 
 
-print(factorial(3)) # Should print 6
-print(factorial(9)) # Should print 362880
-print(factorial(1)) # Should print 1
+print(factorial(3)) ## Output: 6
+print(factorial(9)) ## Output: 362880
+print(factorial(1)) ## Output: 1
 ```
 
 ***Solution 04***
 
 ```python
 def multiplication_table(start, stop):
-    # Complete the outer loop range
-    for x in range(1, 3+1):
-         # Complete the inner loop range
-        for y in range(1, 3+1):
-            # Prints the value of "x" multiplied by "y"
-            # and inserts a space after each value
+    ## Complete the outer loop range
+    for x in range(start, stop+1): 
+        ## Complete the inner loop range
+        for y in range(start, stop+1):
+            ## Print the value of "x" multiplied by "y" 
+            ## and inserts a space after each value
             print(str(x*y), end=" ")
-        # An empty print() function inserts a line break at the end of the row
+        ## An empty print() function inserts a line break at the end of the row 
         print()
 
 
@@ -721,49 +725,50 @@ multiplication_table(1, 3)
 def counter(start, stop):
     if start > stop:
         return_string = "Counting down: "
-        while start >= stop: # Complete the while loop
-            return_string += str(start) # Add the numbers to the "return_string"
+        while start >= stop: ## Complete the while loop
+            return_string += str(start) ## Add the numbers to the "return_string"
             if start > stop:
                 return_string += ","
-            start -= 1 # Decrement the appropriate variable
+            start -= 1 ## Decrement the appropriate variable
     else:
         return_string = "Counting up: "
-        while start <= stop: # Complete the while loop
-            return_string += str(start) # Add the numbers to the "return_string"
+        while start <= stop: ## Complete the while loop
+            return_string += str(start) ## Add the numbers to the "return_string"
             if start < stop:
                 return_string += ","
-            start += 1 # Increment the appropriate variable
+            start += 1 ## Increment the appropriate variable
     return return_string
 
 
-print(counter(1, 10)) # Should be "Counting up: 1,2,3,4,5,6,7,8,9,10"
-print(counter(2, 1)) # Should be "Counting down: 2,1"
-print(counter(5, 5)) # Should be "Counting up: 5"
+## Output: "Counting up: 1,2,3,4,5,6,7,8,9,10"
+print(counter(1, 10))
+## Output: "Counting down: 2,1" 
+print(counter(2, 1))
+## Output: "Counting up: 5"
+print(counter(5, 5))
 ```
 
 ***Solution 06***
 
 ```python
 def all_numbers(minimum, maximum):
-    return_string = "" # Initializes variable as a string
-
-    # Complete the for loop with a range that includes all
-    # numbers up to and including the "maximum" value.
+    ## Initialize variable as a string
+    return_string = "" 
+    ## Complete the for loop with a range that includes all numbers 
+    ## up to and including the "maximum" value.
     for n in range(minimum, maximum+1):
-        # Complete the body of the loop by appending the number
-        # followed by a space to the "return_string" variable.
+        ## Complete the body of the loop by appending the number
+        ## followed by a space to the "return_string" variable.
         return_string += str(n) + " "
-
-    # This .strip command will remove the final " " space
-    # at the end of the "return_string".
+    ## strip() will remove the final " " space at the end of the "return_string".
     return return_string.strip()
 
 
-print(all_numbers(2,6))  # Should be 2 3 4 5 6
-print(all_numbers(3,10)) # Should be 3 4 5 6 7 8 9 10
-print(all_numbers(-1,1)) # Should be -1 0 1
-print(all_numbers(0,5))  # Should be 0 1 2 3 4 5
-print(all_numbers(0,0))  # Should be 0
+print(all_numbers(2, 6)) ## Output: 2 3 4 5 6
+print(all_numbers(3, 10)) ## Output: 3 4 5 6 7 8 9 10
+print(all_numbers(-1, 1)) ## Output: -1 0 1
+print(all_numbers(0, 5)) ## Output: 0 1 2 3 4 5
+print(all_numbers(0, 0)) ## Output: 0
 ```
 
 ***Solution 07***
@@ -776,7 +781,7 @@ print(all_numbers(0,0))  # Should be 0
 
 ***Solution 09***
 
-- [x] 0
+- [x] 2
 
 ***Solution 10***
 

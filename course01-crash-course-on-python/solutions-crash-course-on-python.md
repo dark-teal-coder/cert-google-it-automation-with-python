@@ -1045,142 +1045,157 @@ print(add_prices(groceries)) # Should print 28.44
 def format_address(address_string):
     house_number = ""
     street_name = ""
-    # Separate the house number from the street name.
+    ## Separate the house number from the street name
     address_parts = address_string.split()
-
+    
     for address_part in address_parts:
-       # Complete the if-statement with a string method.
-       if address_part.isnumeric():
-         house_number = address_part
-       else:
-         street_name += address_part + " "
-    # Remove the extra space at the end of the last "street_name".
+        ## Complete the if-statement with a string method  
+        if address_part.isnumeric():
+          house_number = address_part
+        else:
+          street_name += address_part + " "
+    ## Remove the extra space at the end of the last "street_name"
     street_name = street_name.strip()
-
-    # Use a string method to return the required formatted string.
+ 
+    ## Use a string method to return the required formatted string.
     return f"House number {house_number} on a street named {street_name}"
 
 
 print(format_address("123 Main Street"))
-# Should print: "House number 123 on a street named Main Street"
-
+## Output: "House number 123 on a street named Main Street"
 print(format_address("1001 1st Ave"))
-# Should print: "House number 1001 on a street named 1st Ave"
-
+## Output: "House number 1001 on a street named 1st Ave"
 print(format_address("55 North Center Drive"))
-# Should print "House number 55 on a street named North Center Drive"
+## Output: "House number 55 on a street named North Center Drive"
 ```
 
 ***Solution 02***
 
 ```python
-def string_words(string):
-    # Complete the return statement using both a string operation and
-    # a string method in a single line.
-    return len(string.split())
+def highlight_word(sentence, word):
+    ## Complete the return statement using a string method
+    i = sentence.index(word)
+    return sentence[:i] + word.upper() + sentence[i+len(word):]
 
 
-print(string_words("Hello, World")) # Should print 2
-print(string_words("Python is awesome")) # Should print 3
-print(string_words("Keep going")) # Should print 2
-print(string_words("Have a nice day")) # Should print 4
+print(highlight_word("Have a nice day", "nice"))
+## Output: "Have a NICE day"
+print(highlight_word("Shhh, don't be so loud!", "loud"))
+## Output: "Shhh, don't be so LOUD!"
+print(highlight_word("Automating with Python is fun", "fun"))
+## Output: "Automating with Python is FUN"
 ```
 
 ***Solution 03***
 
 ```python
-def combine_lists(list1, list2):
-  combined_list = [] # Initialize an empty list variable
-  list1.reverse() # Reverse the order of "list1"
-  list2 += list1 # Combine the two lists
-  combined_list = list2
-  return combined_list
-
-Jaimes_list = ["Alma", "Chika", "Benjamin", "Jocelyn", "Oakley"]
-Drews_list = ["Minna", "Carol", "Gunnar", "Malena"]
+def alphabetize_lists(list1, list2):
+  new_list = [] ## Initialize a new list
+  lists = list1 + list2 ## Combine the lists
+  lists = sorted(lists) ## Sort the combined lists
+  new_list = lists ## Assign the combined lists to the "new_list"
+  return new_list 
 
 
-print(combine_lists(Jaimes_list, Drews_list))
-# Should print ['Minna', 'Carol', 'Gunnar', 'Malena', 'Oakley', 'Jocelyn', 'Benjamin', 'Chika', 'Alma']
+Aniyahs_list = ["Jacomo", "Emma", "Uli", "Nia", "Imani"]
+Imanis_list = ["Loik", "Gabriel", "Ahmed", "Soraya"]
+
+print(alphabetize_lists(Aniyahs_list, Imanis_list))
+## Output: 
+## ['Ahmed', 'Emma', 'Gabriel', 'Imani', 'Jacomo', 'Loik', 'Nia', 'Soraya', 'Uli']
 ```
 
 ***Solution 04***
 
 ```python
-def increments(start, end):
-    return [n + 2 for n in range(start, end+1)] # Create the required list comprehension.
+def even_numbers(first, last):
+  return [num for num in range(first, last) if num%2==0]
 
 
-print(increments(2, 3)) # Should print [4, 5]
-print(increments(1, 5)) # Should print [3, 4, 5, 6, 7]
-print(increments(0, 10)) # Should print [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+print(even_numbers(4, 14)) ## Output: [4, 6, 8, 10, 12]
+print(even_numbers(0, 9)) ## Output: [0, 2, 4, 6, 8]
+print(even_numbers(2, 7)) ## Output: [2, 4, 6]
 ```
 
 ***Solution 05***
 
 ```python
-def car_listing(car_prices):
-  result = ""
-  # Complete the for loop to iterate through the key and value items
-  # in the dictionary.
-  for car, price in car_prices.items():
-    result += f"A {car} costs {price} dolloars.\n" # Use a string method to format the required string.
-  return result
+def countries(countries_dict):
+    result = ""
+    ## Complete the for loop to iterate through the dictionary key and value items
+    for countries in countries_dict.values():
+        ## Use a string method to format the required string
+        result += str(countries) + "\n"
+    return result.strip()
 
-print(car_listing({"Kia Soul":19000, "Lamborghini Diablo":55000, "Ford Fiesta":13000, "Toyota Prius":24000}))
 
-# Should print:
-# A Kia Soul costs 19000 dollars
-# A Lamborghini Diablo costs 55000 dollars
-# A Ford Fiesta costs 13000 dollars
-# A Toyota Prius costs 24000 dollars
+print(countries({"Africa": ["Kenya", "Egypt", "Nigeria"], 
+    "Asia":["China", "India", "Thailand"], 
+    "South America": ["Ecuador", "Bolivia", "Brazil"]}))
+## Output:
+## ['Kenya', 'Egypt', 'Nigeria']
+## ['China', 'India', 'Thailand']
+## ['Ecuador', 'Bolivia', 'Brazil']
 ```
 
 ***Solution 06***
 
 ```python
-def setup_guests(guest_list):
-    # loop over the guest list and add each guest to the dictionary with
-    # an initial value of 0
-    result = {} # Initialize a new dictionary
-    for guest in guest_list: # Iterate over the elements in the list
-        result.update({guest: 0}) # Add each list element to the dictionary as a key with the starting value of 0
-    return result
+def combine_guests(guests1, guests2):
+  guests2.update(guests1) # Use a dictionary method to combine the dictionaries.
+  return guests2
 
-guests = ["Adam","Camila","David","Jamal","Charley","Titus","Raj","Noemi","Sakira","Chidi"]
+Ricks_guests = { "Adam":2, "Camila":3, "David":1, "Jamal":3, "Charley":2, "Titus":1, "Raj":4}
+Tessas_guests = { "David":4, "Noemi":1, "Raj":2, "Adam":1, "Sakira":3, "Chidi":5}
 
-print(setup_guests(guests))
-# Should print {'Adam': 0, 'Camila': 0, 'David': 0, 'Jamal': 0, 'Charley': 0, 'Titus': 0, 'Raj': 0, 'Noemi': 0, 'Sakira': 0, 'Chidi': 0}
+print(combine_guests(Ricks_guests, Tessas_guests))
+## Output:
+## {'David': 1, 'Noemi': 1, 'Raj': 4, 'Adam': 2, 'Sakira': 3, 'Chidi': 5, 'Camila': 3, 'Jamal': 3, 'Charley': 2, 'Titus': 1}
 ```
 
 ***Solution 07***
 
 ```python
-def setup_gradebook(old_gradebook):
-  # Use a dictionary method to create a new copy of the "old_gradebook".
-  new_gradebook = old_gradebook.copy()
-    # Complete the for loop to iterate over the new gradebook.
-  for name in new_gradebook.keys():
-    # Use a dictionary operation to reset the grade values to 0.
-    new_gradebook.update({name:0})
-  return new_gradebook
+def count_letters(text):
+  ## Initialize a new dictionary
+  dictionary = {}
+  ## Complete the for loop to iterate through each "text" character and 
+  ## use a string method to ensure all letters are lowercase.
+  for ch in text.lower():   
+    ## Complete the if-statement using a string method to check if the
+    ## character is a letter.
+    if ch.isalpha():
+      ## Complete the if-statement using a logical operator to check if 
+      ## the letter is not already in the dictionary.
+      if ch not in dictionary: 
+          ## Use a dictionary operation to add the letter as a key
+          ## and set the initial count value to zero.
+          dictionary[ch] = 0
+      ## Use a dictionary operation to increment the letter count value 
+      ## for the existing key.
+      dictionary[ch] += 1 ## Increment the letter counter 
+  return dictionary
 
-fall_gradebook = {"James": 93, "Felicity": 98, "Barakaa": 80}
-print(setup_gradebook(fall_gradebook))
-# Should output {'James': 0, 'Felicity': 0, 'Barakaa': 0}
+
+print(count_letters("AaBbCc"))
+## Output: {'a': 2, 'b': 2, 'c': 2}
+print(count_letters("Math is fun! 2+2=4"))
+## Output: {'m': 1, 'a': 1, 't': 1, 'h': 1, 'i': 1, 's': 1, 'f': 1, 'u': 1, 'n': 1}
+print(count_letters("This is a sentence."))
+## Output: {'t': 2, 'h': 1, 'i': 2, 's': 3, 'a': 1, 'e': 3, 'n': 2, 'c': 1}
 ```
 
 ***Solution 08***
 
-- [x] transc, nd
+- [x] bor, hini, Lamborg
 
 ***Solution 09***
 
-- [x] ['red', 'white', 'yellow', 'blue']
+- [x] ['Volkswagen', 'Toyota']
 
 ***Solution 10***
 
-- [x] ['Aniyah Cook', 'Ines Bisset', 'Wayne Branon']
+- [x] dict_values(['Aniyah Cook', 'Ines Bisset', 'Wayne Branon'])
 
 ## Week 5
 

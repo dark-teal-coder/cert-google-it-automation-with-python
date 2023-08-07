@@ -666,126 +666,116 @@ while number >= 5:
 ***Solution 02***
 
 ```python
-for number in range(1, 5+1):
+for number in range(2, 12+1):
     if number % 2 == 0:
-        print("even")
-    else:
-        print("odd")
-
+        print(number)
 
 ## Output:
-## odd
-## even
-## odd
-## even
-## odd
+## 2
+## 4
+## 6
+## 8
+## 10
+## 12
 ```
 
 ***Solution 03***
 
 ```python
-def factorial(n):
-    result = n
-    start = n
-    n -= 1
-    while n > 0: ## The while loop should execute as long as n is greater than 0
-        ## Multiply the current result by the current value of n
-        result *= n 
-        ## Decrement the appropriate variable by -1
-        n -= 1 
-    return result
+def even_numbers(n):
+    count = 0
+    current_number = 0
+    while current_number <= n: ## Complete the while loop condition
+        if current_number % 2 == 0:
+            count += 1 ## Increment the appropriate variable
+        current_number += 1 ## Increment the appropriate variable
+    return count
 
 
-print(factorial(3)) ## Output: 6
-print(factorial(9)) ## Output: 362880
-print(factorial(1)) ## Output: 1
+print(even_numbers(25)) ## Output: 13
+print(even_numbers(144)) ## Output: 73
+print(even_numbers(1000)) ## Output: 501
+print(even_numbers(0)) ## Output: 1
 ```
 
 ***Solution 04***
 
 ```python
-def multiplication_table(start, stop):
-    ## Complete the outer loop range
-    for x in range(start, stop+1): 
-        ## Complete the inner loop range
-        for y in range(start, stop+1):
-            ## Print the value of "x" multiplied by "y" 
-            ## and inserts a space after each value
-            print(str(x*y), end=" ")
+def rows_asterisks(rows):
+    ## Complete the outer loop range to control the number of rows
+    for x in range(rows): 
+        ## Complete the inner loop range to control the number of asterisks per row
+        for y in range(x+1): 
+            ## Print 1 asterisk and 1 space
+            print("*", end=" ")
         ## An empty print() function inserts a line break at the end of the row 
         print()
 
 
-multiplication_table(1, 3)
+rows_asterisks(5)
 ```
 
 ***Solution 05***
 
 ```python
-def counter(start, stop):
-    if start > stop:
-        return_string = "Counting down: "
-        while start >= stop: ## Complete the while loop
-            return_string += str(start) ## Add the numbers to the "return_string"
-            if start > stop:
+def countdown(start):
+    x = start
+    if x > 0:
+        return_string = "Counting down to 0: "
+        while x >= 0: ## Complete the while loop
+            return_string += str(x) ## Add the numbers to the "return_string"
+            if x > 0:
                 return_string += ","
-            start -= 1 ## Decrement the appropriate variable
+            x -= 1 ## Decrement the appropriate variable
     else:
-        return_string = "Counting up: "
-        while start <= stop: ## Complete the while loop
-            return_string += str(start) ## Add the numbers to the "return_string"
-            if start < stop:
-                return_string += ","
-            start += 1 ## Increment the appropriate variable
+        return_string = "Cannot count down to 0"
     return return_string
 
 
-## Output: "Counting up: 1,2,3,4,5,6,7,8,9,10"
-print(counter(1, 10))
-## Output: "Counting down: 2,1" 
-print(counter(2, 1))
-## Output: "Counting up: 5"
-print(counter(5, 5))
+print(countdown(10)) ## Output: "Counting down to 0: 10,9,8,7,6,5,4,3,2,1,0"
+print(countdown(2)) ## Output: "Counting down to 0: 2,1,0"
+print(countdown(0)) ## Output: "Cannot count down to 0"
 ```
 
 ***Solution 06***
 
 ```python
-def all_numbers(minimum, maximum):
+def odd_numbers(maximum):
     ## Initialize variable as a string
-    return_string = "" 
-    ## Complete the for loop with a range that includes all numbers 
+    return_string = ""
+    ## Complete the for loop with a range that includes all odd numbers 
     ## up to and including the "maximum" value.
-    for n in range(minimum, maximum+1):
-        ## Complete the body of the loop by appending the number
+    for num in range(0, maximum+1): 
+        ## Complete the body of the loop by appending the odd number
         ## followed by a space to the "return_string" variable.
-        return_string += str(n) + " "
+        if num % 2 == 1:
+            return_string += str(num) + " " 
     ## strip() will remove the final " " space at the end of the "return_string".
     return return_string.strip()
 
 
-print(all_numbers(2, 6)) ## Output: 2 3 4 5 6
-print(all_numbers(3, 10)) ## Output: 3 4 5 6 7 8 9 10
-print(all_numbers(-1, 1)) ## Output: -1 0 1
-print(all_numbers(0, 5)) ## Output: 0 1 2 3 4 5
-print(all_numbers(0, 0)) ## Output: 0
+print(odd_numbers(6)) ## Output: 1 3 5
+print(odd_numbers(10)) ## Output: 1 3 5 7 9
+print(odd_numbers(1)) ## Output: 1
+print(odd_numbers(3)) ## Output: 1 3
+print(odd_numbers(0)) ## No numbers displayed
 ```
 
 ***Solution 07***
 
-- [x] The "sum" variable is initialized with the wrong value
+- [x] Will produce a NameError stating the variable is not defined
 
 ***Solution 08***
 
-- [x] 5
+- [x] 2
 
 ***Solution 09***
 
-- [x] 2
+- [x] 8
 
 ***Solution 10***
 
-- [x] When called with 0, it triggers an infinite loop
+- [x] Variable "x" is assigned the value 1 in every loop
 
 ## Week 4
 

@@ -775,11 +775,11 @@ print(odd_numbers(0)) ## No numbers displayed
 
 ***Solution 08***
 
-- [x] 2
+`2`
 
 ***Solution 09***
 
-- [x] 8
+`8`
 
 ***Solution 10***
 

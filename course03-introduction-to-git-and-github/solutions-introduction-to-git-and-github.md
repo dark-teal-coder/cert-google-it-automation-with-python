@@ -123,7 +123,7 @@ Note: Working with Qwiklabs may be similar to the work you'd perform as an IT Su
 
 In this section, you will use the PuTTY Secure Shell (SSH) client and your VM’s External IP address to connect.
 
-**Download your PPK key file**
+**Download your PPK key file.**
 
 You can download the VM’s private key file in the PuTTY-compatible PPK format from the Qwiklabs Start Lab page. Click on Download PPK.
 
@@ -171,7 +171,7 @@ If PuTTY fails to connect to your Linux VM, verify that:
 
 ###### Option 2: OSX and Linux users: Connecting to your VM via SSH
 
-**Download your VM’s private key file**
+**Download your VM’s private key file.**
 
 You can download the private key file in PEM format from the Qwiklabs Start Lab page. Click on Download PEM.
 
@@ -203,6 +203,52 @@ ssh -i ~/Downloads/qwikLABS-XXXXX.pem username@External Ip Address
 <p align="center">
     <img src="../images/introduction-to-git-and-github-week-01-ssh-command-connecting-vm.png" alt="../images/introduction-to-git-and-github-week-01-ssh-command-connecting-vm.png" width="50%" height="50%">
 </p>
+
+###### Option 3: Chrome OS users: Connecting to your VM via SSH
+
+Note: Make sure you are not in Incognito/Private mode while launching the application.
+
+**Download your VM’s private key file.**
+
+You can download the private key file in PEM format from the Qwiklabs Start Lab page. Click on Download PEM.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-download-pem.png" alt="../images/introduction-to-git-and-github-week-01-download-pem.png" width="50%" height="50%">
+</p>
+
+**Connect to your VM**
+
+1. Add Secure Shell from [here](https://chrome.google.com/webstore/detail/secure-shell/iodihamcpbpeioajjeobimgagajmlibd) to your Chrome browser.
+
+2. Open the Secure Shell app and click on [New Connection].
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-vm-new-connection.png" alt="../images/introduction-to-git-and-github-week-01-vm-new-connection.png" width="50%" height="50%">
+</p>
+
+3. In the username section, enter the username given in the Connection Details Panel of the lab. And for the hostname section, enter the external IP of your VM instance that is mentioned in the Connection Details Panel of the lab.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-vm-username-hostname.png" alt="../images/introduction-to-git-and-github-week-01-vm-username-hostname.png" width="50%" height="50%">
+</p>
+
+4. In the Identity section, import the downloaded PEM key by clicking on the Import… button beside the field. Choose your PEM key and click on the OPEN button.
+
+Note: If the key is still not available after importing it, refresh the application, and select it from the Identity drop-down menu.
+
+5. Once your key is uploaded, click on the [ENTER] Connect button below.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-vm-identity.png" alt="../images/introduction-to-git-and-github-week-01-vm-identity.png" width="50%" height="50%">
+</p>
+
+6. For any prompts, type yes to continue.
+
+7. You have now successfully connected to your Linux VM.
+
+You're now ready to continue with the lab!
+
+
 
 ## Week 2
 

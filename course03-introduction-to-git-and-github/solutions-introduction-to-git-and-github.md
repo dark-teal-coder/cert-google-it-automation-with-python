@@ -110,6 +110,28 @@ Multiple answers:
 
 ### Undoing Things
 
+#### Practice Quiz: Undoing Things
+
+***Solution 01***
+
+- [x] `git revert``
+
+***Solution 02***
+
+- [x] use the commit ID at the end of the git revert command
+
+***Solution 03***
+
+- [x] To guarantee the consistency of our repository
+
+***Solution 04***
+
+- [x] Overwrite the previous commit
+
+***Solution 05***
+
+- [x] `git show`
+
 ### Branching and Merging
 
 ### Module 2 Review

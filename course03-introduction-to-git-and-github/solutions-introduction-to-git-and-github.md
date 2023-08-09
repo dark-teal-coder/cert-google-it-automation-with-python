@@ -390,7 +390,23 @@ Click Check my progress to verify the objective.
 
 Congrats! You've successfully installed the Git, initialized a repository, and performed basic Git operations. Now that you know how to do this, it will be easier for you and your team to work on a huge project with multiple functionalities and modules.
 
+##### End your lab
 
+When you have completed your lab, click End Lab. Qwiklabs removes the resources you’ve used and cleans the account for you.
+
+You will be given an opportunity to rate the lab experience. Select the applicable number of stars, type a comment, and then click Submit.
+
+The number of stars indicates the following:
+
+- 1 star = Very dissatisfied
+- 2 stars = Dissatisfied
+- 3 stars = Neutral
+- 4 stars = Satisfied
+- 5 stars = Very satisfied
+
+You can close the dialog box if you don't want to provide feedback.
+
+For feedback, suggestions, or corrections, please use the Support tab.
 
 ## Week 2
 

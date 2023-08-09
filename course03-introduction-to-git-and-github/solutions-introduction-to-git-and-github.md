@@ -239,7 +239,7 @@ Note: If the key is still not available after importing it, refresh the applicat
 5. Once your key is uploaded, click on the [ENTER] Connect button below.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-vm-identity.png" alt="../images/introduction-to-git-and-github-week-01-vm-identity.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-vm-identity.png" alt="../images/introduction-to-git-and-github-week-01-vm-identity.png" width="80%" height="80%">
 </p>
 
 6. For any prompts, type yes to continue.

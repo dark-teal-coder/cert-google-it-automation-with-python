@@ -101,11 +101,11 @@ You'll have 90 minutes to complete this lab.
 
 You'll need to start the lab before you can access the materials in the virtual machine OS. To do this, click the green “Start Lab” button at the top of the screen.
 
-Note: For this lab you are going to access the Linux VM through your local SSH Client, and not use the Google Console (Open GCP Console button is not available for this lab).
-
 <p align="left">
     <img src="../images/introduction-to-git-and-github-week-01-start-lab.png" alt="../images/introduction-to-git-and-github-week-01-start-lab.png" width="10%" height="10%">
 </p>
+
+Note: For this lab you are going to access the Linux VM through your local SSH Client, and not use the Google Console (Open GCP Console button is not available for this lab).
 
 After you click the “Start Lab” button, you will see all the SSH connection details on the left-hand side of your screen. You should have a screen that looks like this:
 

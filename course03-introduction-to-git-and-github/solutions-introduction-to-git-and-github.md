@@ -113,6 +113,62 @@ After you click the “Start Lab” button, you will see all the SSH connection 
     <img src="../images/introduction-to-git-and-github-week-01-ssh-connection.png" alt="../images/introduction-to-git-and-github-week-01-ssh-connection.png" width="50%" height="50%">
 </p>
 
+##### Accessing the virtual machine
+
+Please find one of the three relevant options below based on your device's operating system.
+
+Note: Working with Qwiklabs may be similar to the work you'd perform as an IT Support Specialist; you'll be interfacing with a cutting-edge technology that requires multiple steps to access, and perhaps healthy doses of patience and persistence(!). You'll also be using SSH to enter the labs -- a critical skill in IT Support that you’ll be able to practice through the labs.
+
+###### Option 1: Windows Users: Connecting to your VM
+
+In this section, you will use the PuTTY Secure Shell (SSH) client and your VM’s External IP address to connect.
+
+**Download your PPK key file**
+
+You can download the VM’s private key file in the PuTTY-compatible PPK format from the Qwiklabs Start Lab page. Click on Download PPK.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-download-ppk.png" alt="../images/introduction-to-git-and-github-week-01-download-ppk.png" width="50%" height="50%">
+</p>
+
+**Connect to your VM using SSH and PuTTY**
+
+1. You can download Putty from [here](https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe)
+
+2. In the Host Name (or IP address) box, enter username@external_ip_address.
+
+Note: Replace username and external_ip_address with values provided in the lab.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-putty-config.gif" alt="../images/introduction-to-git-and-github-week-01-putty-config.gif" width="50%" height="50%">
+</p>
+
+3. In the Connection list, expand SSH.
+
+4. Then expand Auth by clicking on + icon.
+
+5. Now, select the Credentials from the Auth list.
+
+6. In the Private key file for authentication box, browse to the PPK file that you downloaded and double-click it.
+
+7. Click on the Open button.
+
+Note: PPK file is to be imported into PuTTY tool using the Browse option available in it. It should not be opened directly but only to be used in PuTTY.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-putty-config-ssh-connection-auth.gif" alt="../images/introduction-to-git-and-github-week-01-putty-config-ssh-connection-auth.gif" width="50%" height="50%">
+</p>
+
+8. Click Yes when prompted to allow a first connection to this remote SSH server. Because you are using a key pair for authentication, you will not be prompted for a password.
+
+**Common issues**
+
+If PuTTY fails to connect to your Linux VM, verify that:
+
+- You entered `<username>@<external ip address>` in PuTTY.
+- You downloaded the fresh new PPK file for this lab from Qwiklabs.
+- You are using the downloaded PPK file in PuTTY.
+
 ## Week 2
 
 ### Advanced Git interaction

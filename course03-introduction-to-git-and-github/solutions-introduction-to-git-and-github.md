@@ -223,7 +223,7 @@ You can download the private key file in PEM format from the Qwiklabs Start Lab 
 2. Open the Secure Shell app and click on [New Connection].
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-vm-new-connection.png" alt="../images/introduction-to-git-and-github-week-01-vm-new-connection.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-vm-new-connection.png" alt="../images/introduction-to-git-and-github-week-01-vm-new-connection.png" width="80%" height="80%">
 </p>
 
 3. In the username section, enter the username given in the Connection Details Panel of the lab. And for the hostname section, enter the external IP of your VM instance that is mentioned in the Connection Details Panel of the lab.

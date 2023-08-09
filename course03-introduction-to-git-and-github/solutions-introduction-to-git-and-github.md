@@ -318,6 +318,74 @@ git config --global user.email "user@example.com"
 
 Replace `user@example.com` with your email-id. Any future commits you now push to GitHub will be associated with this email address. You can even use git config to change the user email associated with your Git commits.
 
+##### Git Operations
+
+Let's now create a text file named README. We will be using the nano editor for this.
+
+```text
+nano README
+```
+
+Type any text within the file, or you can use the following text:
+
+```text
+This is my first repository.
+```
+
+Save the file by pressing Ctrl-o, Enter key, and Ctrl-x.
+
+Git is now aware of the files in the project. We can check the status using the following command:
+
+```git
+git status
+```
+
+This command displays the status of the working tree. It also shows changes that have been staged, changes that haven't been staged, and files that aren't tracked by Git.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-git-status-01.png" alt="../images/introduction-to-git-and-github-week-01-git-status-01.png" width="50%" height="50%">
+</p>
+
+You can now see the file you created, README, under the section Untracked files. Git isn't tracking the files yet. To track the files, we have to commit these files by adding them to the staging area.
+
+Now let's add the file to the staging area using the following command:
+
+```git
+git add README
+```
+
+This command adds changes from the working tree to the staging area i.e., it gathers and prepares files for Git before committing them. In other words, it updates the index with the current content found in the working tree to prepare the content that's staged for the next commit.
+
+You can now view the status of the working tree using the command: git status. This now shows the file README in green i.e., the file is now in the staging area and yet to be committed.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-git-status-02.png" alt="../images/introduction-to-git-and-github-week-01-git-status-02.png" width="50%" height="50%">
+</p>
+
+However, git add doesn't affect the repository in any serious way because changes are not actually recorded until you commit them.
+
+Let's now commit the changes. A Git commit is equivalent to the term "Save".
+
+Commit the changes using the following command:
+
+```git
+git commit
+```
+
+This now opens an editor, asking you to type a commit message. Every commit has an associated commit message. A commit message is a log message from the user describing the changes.
+
+Enter the commit message of your choice or you can use the following text:
+
+```text
+This is my first commit!
+```
+
+Once you have entered the commit message, save it by pressing Ctrl-o and Enter key. To exit click Ctrl-x.
+
+The git commit command captures a snapshot of the project's currently staged changes i.e., it stores the current contents of the index in a new commit along with the commit message.
+
+Click Check my progress to verify the objective.
+
 
 
 ## Week 2

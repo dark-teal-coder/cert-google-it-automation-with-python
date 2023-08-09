@@ -274,6 +274,32 @@ git --version
 
 Click Check my progress to verify the objective.
 
+##### Initialize a new repository
+
+Create a directory to store your project in. To do this, use the following command:
+
+```linux
+mkdir my-git-repo
+```
+
+Now navigate to the directory you created.
+
+```linux
+cd my-git-repo
+```
+
+Next, initialize a new repository by using the following command:
+
+```git
+git init
+```
+
+The git init command creates a new Git repository. In our case, it transformed the current directory into a Git repository. It can also be used to convert an existing, unversioned project to a Git repository or to initialize a new, empty repository.
+
+Executing git init creates a .git subdirectory in the current working directory, which contains all of the necessary Git metadata for the new repository. This metadata includes subdirectories for objects, refs, and template files. A HEAD file is also created which points to the currently checked out commit.
+
+If you've already run git init on a project directory containing a .git subdirectory, you can safely run git init again on the same project directory. The operation is what we call idempotent; running it again doesn't override an existing .git configuration.
+
 
 
 ## Week 2

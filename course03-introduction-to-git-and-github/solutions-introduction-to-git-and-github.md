@@ -248,6 +248,32 @@ Note: If the key is still not available after importing it, refresh the applicat
 
 You're now ready to continue with the lab!
 
+##### Install Git
+
+Before you install Git on your Linux VM, you need to first make sure that you have a fresh index of the packages available to you. To do that, run:
+
+```linux
+sudo apt update
+```
+
+Now, you can install Git on your Linux host using apt by running the following command:
+
+```linux
+sudo apt install git
+```
+
+For any prompts, continue by clicking Y.
+
+Note: Installing Git may take a couple of minutes.
+
+Check the installed version of git by using the command below:
+
+```git
+git --version
+```
+
+Click Check my progress to verify the objective.
+
 
 
 ## Week 2

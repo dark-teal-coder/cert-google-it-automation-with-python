@@ -128,7 +128,7 @@ In this section, you will use the PuTTY Secure Shell (SSH) client and your VM’
 You can download the VM’s private key file in the PuTTY-compatible PPK format from the Qwiklabs Start Lab page. Click on Download PPK.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-download-ppk.png" alt="../images/introduction-to-git-and-github-week-01-download-ppk.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-download-ppk.png" alt="../images/introduction-to-git-and-github-week-01-download-ppk.png" width="30%" height="30%">
 </p>
 
 **Connect to your VM using SSH and PuTTY**

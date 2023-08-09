@@ -343,7 +343,7 @@ git status
 This command displays the status of the working tree. It also shows changes that have been staged, changes that haven't been staged, and files that aren't tracked by Git.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-git-status-01.png" alt="../images/introduction-to-git-and-github-week-01-git-status-01.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-git-status-01.png" alt="../images/introduction-to-git-and-github-week-01-git-status-01.png" width="80%" height="80%">
 </p>
 
 You can now see the file you created, README, under the section Untracked files. Git isn't tracking the files yet. To track the files, we have to commit these files by adding them to the staging area.

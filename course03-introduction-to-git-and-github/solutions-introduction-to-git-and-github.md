@@ -386,6 +386,10 @@ The git commit command captures a snapshot of the project's currently staged cha
 
 Click Check my progress to verify the objective.
 
+##### Congratulations!
+
+Congrats! You've successfully installed the Git, initialized a repository, and performed basic Git operations. Now that you know how to do this, it will be easier for you and your team to work on a huge project with multiple functionalities and modules.
+
 
 
 ## Week 2

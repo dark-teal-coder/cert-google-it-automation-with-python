@@ -176,7 +176,7 @@ If PuTTY fails to connect to your Linux VM, verify that:
 You can download the private key file in PEM format from the Qwiklabs Start Lab page. Click on Download PEM.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-download-pem.png" alt="../images/introduction-to-git-and-github-week-01-download-pem.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-download-pem.png" alt="../images/introduction-to-git-and-github-week-01-download-pem.png" width="30%" height="30%">
 </p>
 
 **Connect to the VM using the local Terminal application**

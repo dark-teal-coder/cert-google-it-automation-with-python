@@ -110,7 +110,7 @@ Note: For this lab you are going to access the Linux VM through your local SSH C
 After you click the “Start Lab” button, you will see all the SSH connection details on the left-hand side of your screen. You should have a screen that looks like this:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-ssh-connection.png" alt="../images/introduction-to-git-and-github-week-01-ssh-connection.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-ssh-connection.png" alt="../images/introduction-to-git-and-github-week-01-ssh-connection.png" width="40%" height="40%">
 </p>
 
 ##### Accessing the virtual machine
@@ -128,7 +128,7 @@ In this section, you will use the PuTTY Secure Shell (SSH) client and your VM’
 You can download the VM’s private key file in the PuTTY-compatible PPK format from the Qwiklabs Start Lab page. Click on Download PPK.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-download-ppk.png" alt="../images/introduction-to-git-and-github-week-01-download-ppk.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-download-ppk.png" alt="../images/introduction-to-git-and-github-week-01-download-ppk.png" width="30%" height="30%">
 </p>
 
 **Connect to your VM using SSH and PuTTY**
@@ -176,7 +176,7 @@ If PuTTY fails to connect to your Linux VM, verify that:
 You can download the private key file in PEM format from the Qwiklabs Start Lab page. Click on Download PEM.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-download-pem.png" alt="../images/introduction-to-git-and-github-week-01-download-pem.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-download-pem.png" alt="../images/introduction-to-git-and-github-week-01-download-pem.png" width="30%" height="30%">
 </p>
 
 **Connect to the VM using the local Terminal application**
@@ -201,7 +201,7 @@ ssh -i ~/Downloads/qwikLABS-XXXXX.pem username@External Ip Address
 ```
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-ssh-command-connecting-vm.png" alt="../images/introduction-to-git-and-github-week-01-ssh-command-connecting-vm.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-ssh-command-connecting-vm.png" alt="../images/introduction-to-git-and-github-week-01-ssh-command-connecting-vm.png" width="80%" height="80%">
 </p>
 
 ###### Option 3: Chrome OS users: Connecting to your VM via SSH
@@ -213,7 +213,7 @@ Note: Make sure you are not in Incognito/Private mode while launching the applic
 You can download the private key file in PEM format from the Qwiklabs Start Lab page. Click on Download PEM.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-download-pem.png" alt="../images/introduction-to-git-and-github-week-01-download-pem.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-download-pem.png" alt="../images/introduction-to-git-and-github-week-01-download-pem.png" width="30%" height="30%">
 </p>
 
 **Connect to your VM**
@@ -223,13 +223,13 @@ You can download the private key file in PEM format from the Qwiklabs Start Lab 
 2. Open the Secure Shell app and click on [New Connection].
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-vm-new-connection.png" alt="../images/introduction-to-git-and-github-week-01-vm-new-connection.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-vm-new-connection.png" alt="../images/introduction-to-git-and-github-week-01-vm-new-connection.png" width="80%" height="80%">
 </p>
 
 3. In the username section, enter the username given in the Connection Details Panel of the lab. And for the hostname section, enter the external IP of your VM instance that is mentioned in the Connection Details Panel of the lab.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-vm-username-hostname.png" alt="../images/introduction-to-git-and-github-week-01-vm-username-hostname.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-vm-username-hostname.png" alt="../images/introduction-to-git-and-github-week-01-vm-username-hostname.png" width="80%" height="80%">
 </p>
 
 4. In the Identity section, import the downloaded PEM key by clicking on the Import… button beside the field. Choose your PEM key and click on the OPEN button.
@@ -239,7 +239,7 @@ Note: If the key is still not available after importing it, refresh the applicat
 5. Once your key is uploaded, click on the [ENTER] Connect button below.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-vm-identity.png" alt="../images/introduction-to-git-and-github-week-01-vm-identity.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-vm-identity.png" alt="../images/introduction-to-git-and-github-week-01-vm-identity.png" width="80%" height="80%">
 </p>
 
 6. For any prompts, type yes to continue.
@@ -343,7 +343,7 @@ git status
 This command displays the status of the working tree. It also shows changes that have been staged, changes that haven't been staged, and files that aren't tracked by Git.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-git-status-01.png" alt="../images/introduction-to-git-and-github-week-01-git-status-01.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-git-status-01.png" alt="../images/introduction-to-git-and-github-week-01-git-status-01.png" width="80%" height="80%">
 </p>
 
 You can now see the file you created, README, under the section Untracked files. Git isn't tracking the files yet. To track the files, we have to commit these files by adding them to the staging area.
@@ -359,7 +359,7 @@ This command adds changes from the working tree to the staging area i.e., it gat
 You can now view the status of the working tree using the command: git status. This now shows the file README in green i.e., the file is now in the staging area and yet to be committed.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-git-status-02.png" alt="../images/introduction-to-git-and-github-week-01-git-status-02.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-git-status-02.png" alt="../images/introduction-to-git-and-github-week-01-git-status-02.png" width="80%" height="80%">
 </p>
 
 However, git add doesn't affect the repository in any serious way because changes are not actually recorded until you commit them.

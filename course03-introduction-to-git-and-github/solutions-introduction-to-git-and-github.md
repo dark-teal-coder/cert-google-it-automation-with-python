@@ -412,7 +412,7 @@ For feedback, suggestions, or corrections, please use the Support tab.
 
 ##### My Work for Qwiklabs Assessment: Introduction to Git
 
-- After click [Start Lab] button, we can see Linux instance external IP address and username.
+1. After click [Start Lab] button, we can see Linux instance external IP address and username.
 
 <p align="center">
     <img src="../images/introduction-to-git-and-github-week-01-username-external_ip_address.png" alt="../images/introduction-to-git-and-github-week-01-username-external_ip_address.png" width="50%" height="50%">
@@ -520,8 +520,6 @@ For feedback, suggestions, or corrections, please use the Support tab.
     <img src="../images/introduction-to-git-and-github-week-01-check-my-progress-03.png" alt="../images/introduction-to-git-and-github-week-01-check-my-progress-03.png" width="80%" height="80%">
 </p>
 
----
-
 ## Week 2
 
 ### Advanced Git interaction
@@ -575,6 +573,25 @@ For feedback, suggestions, or corrections, please use the Support tab.
 ### Branching and Merging
 
 ### Module 2 Review
+
+#### Qwiklabs Assessment: Merging Branches in Git
+
+##### Introduction
+
+In this lab, you'll use your knowledge of Git and Git commit history to check out an existing repo and make some changes to it. You'll also test what you learned about rolling back commits after bad changes in order to fix a script in the repo and run it to produce the correct output.
+
+What you'll do
+
+Check the status and history of an existing Git repo
+
+- Create a branch
+- Modify content on the branch
+- Make rollback changes
+- Merge the branch
+
+You'll have 90 minutes to complete this lab.
+
+Passed 80%
 
 ## Week 3
 

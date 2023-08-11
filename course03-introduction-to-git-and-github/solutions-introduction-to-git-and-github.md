@@ -741,7 +741,63 @@ You're now ready to continue with the lab!
 
 ##### Explore repository
 
+There is a Git repository named food-scripts consisting of a couple of food-related Python scripts.
 
+Navigate to the repository using the following command:
+
+```linux
+cd ~/food-scripts
+```
+
+Now, list the files using the ls command. There are three files named favorite_foods.log, food_count.py, and food_question.py.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-02-list-repo.png" alt="../images/introduction-to-git-and-github-week-02-list-repo.png" width="80%" height="80%">
+</p>
+
+Let's explore each file. Use the cat command to view each file.
+
+1. favorite_foods.log: This file consists of a list of food items. You can view it using the following command:
+
+```linux
+cat favorite_foods.log
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-02-view-log-file.png" alt="../images/introduction-to-git-and-github-week-02-view-log-file.png" width="80%" height="80%">
+</p>
+
+2. food_count.py: This script returns a list of each food and the number of times the food appeared in the favorite_foods.log file.
+
+Let's execute the script food_count.py:
+
+```linux
+./food_count.py
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-02-execute-py-file-01.png" alt="../images/introduction-to-git-and-github-week-02-execute-py-file-01.png" width="80%" height="80%">
+</p>
+
+3. food_question.py: This prints a list of foods and prompts the user to enter one of those foods as their favorite. It then returns an answer of how many others in the list like that same food.
+
+Run the following command to see the output of food_question.py script:
+
+```linux
+./food_question.py
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-02-execute-py-file-02.png" alt="../images/introduction-to-git-and-github-week-02-execute-py-file-02.png" width="80%" height="80%">
+</p>
+
+Uh oh , this gives us an error. One of your colleagues reports that this script was working fine until the most recent commit. We'll be fixing this error later during the lab.
 
 ##### Understanding the repository
 

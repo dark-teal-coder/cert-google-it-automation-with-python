@@ -408,9 +408,7 @@ You can close the dialog box if you don't want to provide feedback.
 
 For feedback, suggestions, or corrections, please use the Support tab.
 
----
-
-##### My Work for Qwiklabs Assessment: Introduction to Git
+#### My Work for Qwiklabs Assessment: Introduction to Git
 
 1. After click [Start Lab] button, we can see Linux instance external IP address and username.
 
@@ -636,7 +634,21 @@ After you click the “Start Lab” button, you will see all the SSH connection 
 
 ##### End your lab
 
+When you have completed your lab, click End Lab. Qwiklabs removes the resources you’ve used and cleans the account for you.
 
+You will be given an opportunity to rate the lab experience. Select the applicable number of stars, type a comment, and then click Submit.
+
+The number of stars indicates the following:
+
+- 1 star = Very dissatisfied
+- 2 stars = Dissatisfied
+- 3 stars = Neutral
+- 4 stars = Satisfied
+- 5 stars = Very satisfied
+
+You can close the dialog box if you don't want to provide feedback.
+
+For feedback, suggestions, or corrections, please use the Support tab.
 
 ## Week 3
 

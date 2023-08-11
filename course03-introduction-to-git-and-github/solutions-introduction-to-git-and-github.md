@@ -591,7 +591,37 @@ Check the status and history of an existing Git repo
 
 You'll have 90 minutes to complete this lab.
 
-Passed 80%
+##### Accessing the virtual machine
+
+
+
+##### Explore repository
+
+
+
+##### Understanding the repository
+
+
+
+##### Add a new feature
+
+
+
+##### Fix the script
+
+
+
+##### Merge operation
+
+
+
+##### Congratulations!
+
+
+
+##### End your lab
+
+
 
 ## Week 3
 

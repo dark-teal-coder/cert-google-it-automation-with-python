@@ -630,7 +630,7 @@ After you click the “Start Lab” button, you will see all the SSH connection 
 
 ##### Congratulations!
 
-
+In this lab, you successfully created a branch from the master branch to add a new feature. You also rolled back a commit to where the script worked fine, and then merged it to the master branch. This will help as you work with colleagues who are simultaneously on the same repository.
 
 ##### End your lab
 

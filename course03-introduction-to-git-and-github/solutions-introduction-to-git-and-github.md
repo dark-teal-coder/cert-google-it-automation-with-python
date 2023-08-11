@@ -408,6 +408,120 @@ You can close the dialog box if you don't want to provide feedback.
 
 For feedback, suggestions, or corrections, please use the Support tab.
 
+---
+
+##### My Work for Qwiklabs Assessment: Introduction to Git
+
+- After click [Start Lab] button, we can see Linux instance external IP address and username.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-username-external_ip_address.png" alt="../images/introduction-to-git-and-github-week-01-username-external_ip_address.png" width="50%" height="50%">
+</p>
+
+2. Fill in [Host Name]
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-hostname-connection_type.png" alt="../images/introduction-to-git-and-github-week-01-hostname-connection_type.png" width="50%" height="50%">
+</p>
+
+3. Open SSH Credentials
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-connection-ssh-auth-credentials.png" alt="../images/introduction-to-git-and-github-week-01-connection-ssh-auth-credentials.png" width="50%" height="50%">
+</p>
+
+4. Import `.ppk` private key file for authentification
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-browse-ppk-file.png" alt="../images/introduction-to-git-and-github-week-01-browse-ppk-file.png" width="50%" height="50%">
+</p>
+
+5. After clicking [Open], we will see PuTTY security alert
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-putty-security-alert.png" alt="../images/introduction-to-git-and-github-week-01-putty-security-alert.png" width="50%" height="50%">
+</p>
+
+6. Upon successful connection, a Linux instance will pop up
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-linux-instance.png" alt="../images/introduction-to-git-and-github-week-01-linux-instance.png" width="50%" height="50%">
+</p>
+
+7. To keep all of our packages up to date in Linux VM, update Advanced Packaging Tool (APT) package manager
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-update-apt.png" alt="../images/introduction-to-git-and-github-week-01-update-apt.png" width="50%" height="50%">
+</p>
+
+8. Use APT to install Git
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-apt-install-git.png" alt="../images/introduction-to-git-and-github-week-01-apt-install-git.png" width="80%" height="80%">
+</p>
+
+9. Check Git version
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-check-git-version.png" alt="../images/introduction-to-git-and-github-week-01-check-git-version.png" width="80%" height="80%">
+</p>
+
+10. Check progress to see if Git is installed
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-check-my-progress-01.png" alt="../images/introduction-to-git-and-github-week-01-check-my-progress-01.png" width="80%" height="80%">
+</p>
+
+11. Initialize a new repository
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-initialize-new-repository.png" alt="../images/introduction-to-git-and-github-week-01-initialize-new-repository.png" width="80%" height="80%">
+</p>
+
+12. Configure Git
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-configure-git.png" alt="../images/introduction-to-git-and-github-week-01-configure-git.png" width="80%" height="80%">
+</p>
+
+13. Create and update README file
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-readme-content.png" alt="../images/introduction-to-git-and-github-week-01-readme-content.png" width="80%" height="80%">
+</p>
+
+13. Check if README is created, git-add and git-commit README
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-readme-git-add-git-commit.png" alt="../images/introduction-to-git-and-github-week-01-readme-git-add-git-commit.png" width="80%" height="80%">
+</p>
+
+14. Check progress to see if the 1st commit is successful
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-check-my-progress-02.png" alt="../images/introduction-to-git-and-github-week-01-check-my-progress-02.png" width="80%" height="80%">
+</p>
+
+15. Update README content
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-readme-content-updated.png" alt="../images/introduction-to-git-and-github-week-01-readme-content-updated.png" width="80%" height="80%">
+</p>
+
+16. Check if README has been updated; see the previous and current versions of README; git-add and git-commit README again; check commit messages
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-readme-git-add-git-commit-again.png" alt="../images/introduction-to-git-and-github-week-01-readme-git-add-git-commit-again.png" width="80%" height="80%">
+</p>
+
+17. Check progress to see if the 2nd commit is successful
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-check-my-progress-03.png" alt="../images/introduction-to-git-and-github-week-01-check-my-progress-03.png" width="80%" height="80%">
+</p>
+
+---
+
 ## Week 2
 
 ### Advanced Git interaction

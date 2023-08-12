@@ -449,7 +449,7 @@ For feedback, suggestions, or corrections, please use the Support tab.
 7. To keep all of our packages up to date in Linux VM, update Advanced Packaging Tool (APT) package manager
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-update-apt.png" alt="../images/introduction-to-git-and-github-week-01-update-apt.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-update-apt.png" alt="../images/introduction-to-git-and-github-week-01-update-apt.png" width="80%" height="80%">
 </p>
 
 8. Use APT to install Git

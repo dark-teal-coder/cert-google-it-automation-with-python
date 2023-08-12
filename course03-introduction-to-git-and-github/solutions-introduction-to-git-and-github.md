@@ -413,7 +413,7 @@ For feedback, suggestions, or corrections, please use the Support tab.
 1. After click [Start Lab] button, we can see Linux instance external IP address and username.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-username-external_ip_address.png" alt="../images/introduction-to-git-and-github-week-01-username-external_ip_address.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-username-external_ip_address.png" alt="../images/introduction-to-git-and-github-week-01-username-external_ip_address.png" width="25%" height="25%">
 </p>
 
 2. Fill in [Host Name]
@@ -443,13 +443,13 @@ For feedback, suggestions, or corrections, please use the Support tab.
 6. Upon successful connection, a Linux instance will pop up
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-linux-instance.png" alt="../images/introduction-to-git-and-github-week-01-linux-instance.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-linux-instance.png" alt="../images/introduction-to-git-and-github-week-01-linux-instance.png" width="80%" height="80%">
 </p>
 
 7. To keep all of our packages up to date in Linux VM, update Advanced Packaging Tool (APT) package manager
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-update-apt.png" alt="../images/introduction-to-git-and-github-week-01-update-apt.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-update-apt.png" alt="../images/introduction-to-git-and-github-week-01-update-apt.png" width="80%" height="80%">
 </p>
 
 8. Use APT to install Git

@@ -851,7 +851,63 @@ Replace user@example.com with your email-id. Any future commits you now push to 
 
 ##### Add a new feature
 
+In this section, we'll be modifying the repository to add a new feature, without affecting the current iteration. This new feature is designed to improve the food count (from the file food_count.py) output. So, create a branch named improve-output using the following command:
 
+```git
+git branch improve-output
+```
+
+Move to the improve-output branch from the master branch.
+
+```git
+git checkout improve-output
+```
+
+Here, you can modify the script file without disturbing the existing code. Once modified and tested, you can update the master branch with a working code.
+
+Now, open food_count.py in the nano editor using the following command:
+
+```powershell
+nano food_count.py
+```
+
+Add the line below before printing for loop in the food_count.py script:
+
+```python
+print("Favourite foods, from most popular to least popular")
+```
+
+Save the file by pressing Ctrl-o, the Enter key, and Ctrl-x. Then run the script food_count.py again to see the output:
+
+```powershell
+./food_count.py
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-02-execute-py-file-03.png" alt="../images/introduction-to-git-and-github-week-02-execute-py-file-03.png" width="80%" height="80%">
+</p>
+
+After running the food_count.py script successfully, commit the changes from the improve-output branch by adding this script to the staging area using the following command:
+
+```git
+git add food_count.py
+```
+
+Now, commit the changes you've done in the improve-output branch.
+
+```git
+git commit -m "Adding a line in the output describing the utility of food_count.py script"
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-02-git-commit.png" alt="../images/introduction-to-git-and-github-week-02-git-commit.png" width="80%" height="80%">
+</p>
+
+Click Check my progress to verify the objective.
 
 ##### Fix the script
 

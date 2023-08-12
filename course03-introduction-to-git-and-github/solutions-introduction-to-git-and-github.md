@@ -967,7 +967,63 @@ Output:
 
 ##### Merge operation
 
+Before merging the branch improve-output, switch to the master branch from the current branch improve-output branch using the command below:
 
+```git
+git checkout master
+```
+
+Merge the branch improve-output into the master branch.
+
+```git
+git merge improve-output
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-02-git-merge.png" alt="../images/introduction-to-git-and-github-week-02-git-merge.png" width="80%" height="80%">
+</p>
+
+Now, all your changes made in the improve-output branch are on the master branch.
+
+```powershell
+./food_question.py
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-02-execute-py-file-06.png" alt="../images/introduction-to-git-and-github-week-02-execute-py-file-06.png" width="80%" height="80%">
+</p>
+
+To get the status from the master branch, use the command below:
+
+```git
+git status
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-02-git-status.png" alt="../images/introduction-to-git-and-github-week-02-git-status.png" width="80%" height="80%">
+</p>
+
+To track the git commit logs, use the following command:
+
+```git
+git log
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-02-git-log-03.png" alt="../images/introduction-to-git-and-github-week-02-git-log-03.png" width="80%" height="80%">
+</p>
+
+Enter `q` to exit.
+
+Click Check my progress to verify the objective.
 
 ##### Congratulations!
 

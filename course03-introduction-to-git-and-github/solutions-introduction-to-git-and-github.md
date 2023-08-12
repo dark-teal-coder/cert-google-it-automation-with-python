@@ -413,7 +413,7 @@ For feedback, suggestions, or corrections, please use the Support tab.
 1. After click [Start Lab] button, we can see Linux instance external IP address and username.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-username-external_ip_address.png" alt="../images/introduction-to-git-and-github-week-01-username-external_ip_address.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-username-external_ip_address.png" alt="../images/introduction-to-git-and-github-week-01-username-external_ip_address.png" width="25%" height="25%">
 </p>
 
 2. Fill in [Host Name]

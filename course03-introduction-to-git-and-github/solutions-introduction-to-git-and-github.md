@@ -801,7 +801,53 @@ Uh oh , this gives us an error. One of your colleagues reports that this script 
 
 ##### Understanding the repository
 
+Let's use the following Git operations to understand the workflow of the repository:
 
+- git status
+- git log
+- git branch
+
+Git status: This displays paths that have differences between the index file and the current HEAD commit; paths that have differences between the working tree and the index file; and paths in the working tree that are not tracked by Git. You can view the status of the working tree using the command: [git status]
+
+```git
+git status
+```
+
+You can now view the status of the working tree.
+
+Git log: This lists the commits done in the repository in reverse chronological order; that is, the most recent commits show up first. This command lists each commit with its SHA-1 checksum, the author's name and email, date, and the commit message.
+
+You can see logs by using the following command:
+
+```git
+git log
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-02-git-log.png" alt="../images/introduction-to-git-and-github-week-02-git-log.png" width="80%" height="80%">
+</p>
+
+Git branch: Branches are a part of the everyday development process on the master branch. Git branches effectively function as a pointer to a snapshot of your changes. When you want to add a new feature or fix a bug, no matter how big or small, you spawn a new branch to encapsulate your changes. This makes it difficult for unstable code to get merged into the main codebase.
+
+###### Configure Git
+
+Before we move forward with the lab, let's configure Git. Git uses a username to associate commits with an identity. It does this by using the git config command. Set the Git username with the following command:
+
+```git
+git config user.name "Name"
+```
+
+Replace Name with your name. Any future commits you push to GitHub from the command line will now be represented by this name. You can even use git config to change the name associated with your Git commits. This will only affect future commits and won't change the name used for past commits.
+
+Let's set your email address to associate them with your Git commits.
+
+```git
+git config user.email "user@example.com"
+```
+
+Replace user@example.com with your email-id. Any future commits you now push to GitHub will be associated with this email address. You can also use git config to change the user email associated with your Git commits.
 
 ##### Add a new feature
 

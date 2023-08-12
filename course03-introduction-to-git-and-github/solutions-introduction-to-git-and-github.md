@@ -826,7 +826,7 @@ git log
 Output:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-02-git-log.png" alt="../images/introduction-to-git-and-github-week-02-git-log.png" width="80%" height="80%">
+    <img src="../images/introduction-to-git-and-github-week-02-git-log-01.png" alt="../images/introduction-to-git-and-github-week-02-git-log-01.png" width="80%" height="80%">
 </p>
 
 Git branch: Branches are a part of the everyday development process on the master branch. Git branches effectively function as a pointer to a snapshot of your changes. When you want to add a new feature or fix a bug, no matter how big or small, you spawn a new branch to encapsulate your changes. This makes it difficult for unstable code to get merged into the main codebase.
@@ -911,7 +911,59 @@ Click Check my progress to verify the objective.
 
 ##### Fix the script
 
+In this section, we'll fix the script food_question.py, which displayed an error when executing it. You can run the file again to view the error.
 
+```powershell
+./food_question.py
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-02-execute-py-file-04.png" alt="../images/introduction-to-git-and-github-week-02-execute-py-file-04.png" width="80%" height="80%">
+</p>
+
+This script gives us the error: "NameError: name 'item' is not defined" but your colleague says that the file was running fine before the most recent commit they did.
+
+In this case, we'll revert back the previous commit.
+
+For this, check the git log history so that you can revert back to the commit where it was working fine.
+
+```git
+git log
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-02-git-log-02.png" alt="../images/introduction-to-git-and-github-week-02-git-log-02.png" width="80%" height="80%">
+</p>
+
+Here, you'll see the commits in reverse chronological order and find the commit having "Rename item variable to food_item" as a commit message. Make sure to note the commit ID for this particular commit.
+
+To revert, use the following command:
+
+```git
+git revert [commit-ID]
+```
+
+Replace [commit-ID] with the commit ID you noted earlier.
+
+This creates a new commit again. You can continue with the default commit message on the screen or add your own commit message.
+
+Then continue by clicking Ctrl-o, the Enter key, and Ctrl-x.
+
+Now, run food_question.py again and verify that it's working as intended.
+
+```powershell
+./food_question.py
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-02-execute-py-file-05.png" alt="../images/introduction-to-git-and-github-week-02-execute-py-file-05.png" width="80%" height="80%">
+</p>
 
 ##### Merge operation
 

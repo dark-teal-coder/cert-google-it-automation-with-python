@@ -1057,6 +1057,30 @@ For feedback, suggestions, or corrections, please use the Support tab.
 
 ### Module 3 Review
 
+#### Qwiklabs Assessment: Introduction to Github
+
+##### Introduction
+
+##### Accessing the virtual machine
+
+##### Create a git repository
+
+##### Git operations
+
+##### Configure Git
+
+##### Edit the file and add it to the repository
+
+##### Create a new file and commit it to the repository
+
+##### Add an empty file to the repository through web UI
+
+##### Congratulations!
+
+##### End your lab
+
+
+
 ## Week 4
 
 ### Pull Requests

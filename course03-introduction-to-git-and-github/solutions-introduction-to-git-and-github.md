@@ -1077,6 +1077,8 @@ For feedback, suggestions, or corrections, please use the Support tab.
 
 ##### Congratulations!
 
+Great job! You've successfully set up a Github account, logged in, created a repository, made changes on the local machine, and pushed changes back to the remote repository. You've learned how to share local changes from a local to remote repository and vice-versa. These skills will help you as an IT specialist to work with a remote user on the same repository.
+
 ##### End your lab
 
 When you have completed your lab, click End Lab. Qwiklabs removes the resources you’ve used and cleans the account for you.

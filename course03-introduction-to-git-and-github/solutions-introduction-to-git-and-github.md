@@ -1107,4 +1107,24 @@ For feedback, suggestions, or corrections, please use the Support tab.
 
 ### Module 4 Review
 
+#### Qwiklabs Assessment: Pushing Local Commits to Github
+
+##### Introduction
+
+##### Accessing the virtual machine
+
+##### Forking and detect function behavior
+
+##### Configure Git
+
+##### Fix the script
+
+##### Commit the changes
+
+##### Push changes
+
+##### Congratulations!
+
+##### End your lab
+
 ### Course Wrap Up

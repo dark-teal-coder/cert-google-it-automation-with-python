@@ -1061,6 +1061,35 @@ For feedback, suggestions, or corrections, please use the Support tab.
 
 ##### Introduction
 
+In this lab, you'll practice the basics of interacting with GitHub. You'll practice setting up an account, logging in, creating a repository, making changes on the local machine, and pushing changes back to the remote repository. We use these git operations to share changes from the remote repository to the local repository and vice-versa.
+
+What you'll do
+
+- Create a Github account
+- Create a git repository
+- Git clone to create a local copy on your local machine
+- Add a file to this repository
+- Create snapshot/snapshots of the local repository
+- Push the snapshots to the main branch
+
+You'll have 90 minutes to complete this lab.
+
+###### Start the lab
+
+You'll need to start the lab before you can access the materials in the virtual machine OS. To do this, click the green “Start Lab” button at the top of the screen.
+
+Note: For this lab you are going to access the Linux VM through your local SSH Client, and not use the Google Console (Open GCP Console button is not available for this lab).
+
+<p align="left">
+    <img src="../images/introduction-to-git-and-github-week-01-start-lab.png" alt="../images/introduction-to-git-and-github-week-01-start-lab.png" width="10%" height="10%">
+</p>
+
+After you click the “Start Lab” button, you will see all the SSH connection details on the left-hand side of your screen. You should have a screen that looks like this:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-01-ssh-connection.png" alt="../images/introduction-to-git-and-github-week-01-ssh-connection.png" width="40%" height="40%">
+</p>
+
 ##### Accessing the virtual machine
 
 ##### Create a git repository

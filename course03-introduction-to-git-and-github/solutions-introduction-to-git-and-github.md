@@ -1227,6 +1227,21 @@ You're now ready to continue with the lab!
 
 ##### Create a git repository
 
+To create a git repository, you need to have a Github account. Follow the steps below to create a github account and a git repository:
+
+- Open [Github](https://github.com). If you don't already have a Github account, create one by entering a username, email, and password. If you already have a Github account proceed to the next step.
+- Log in to your account from the [Github](https://github.com) login page.
+- Click the + sign in the top-right corner of the page and click then on New repository.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-03-new-repo.png" alt="../images/introduction-to-git-and-github-week-03-new-repo.png" width="80%" height="80%">
+</p>
+
+- Enter your repository name in the field Repository name and add a project description in the Description field.
+- You can either select public or private to restrict repository accessibility. If public,anyone can see the repository but you still choose who can commit to it. If private, you choose who can see and commit to the repository.
+- Check the option Initialize this repository with a README to initialize the repository with a README file. Leave all the other values to their default.
+- Click the Create repository button.
+
 ##### Git operations
 
 ##### Configure Git

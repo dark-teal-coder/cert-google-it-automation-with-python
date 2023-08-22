@@ -1244,6 +1244,52 @@ To create a git repository, you need to have a Github account. Follow the steps 
 
 ##### Git operations
 
+You now need to create a local copy of this remote repository on your machine. We'll do this by cloning the repository. The syntax for this is:
+
+```git
+git clone [URL]
+```
+
+For the URL, you can either choose an SSH or an HTTPS link as a URL. We will use HTTPS to clone the Git repository. Click on Clone or download and select HTTPS. Copy the HTTPS link by clicking on the Copy button beside the link.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-03-git-clone.gif" alt="../images/introduction-to-git-and-github-week-03-git-clone.gif" width="80%" height="80%">
+</p>
+
+Next, go to your linux-instance terminal and replace [URL] from the above syntax with the link you copied. The command should now look similar to:
+
+```git
+git clone https://github.com/[username]/[git-repo].git
+```
+
+Here, username is the Git username and git-repo is the name of the remote repository you created.
+
+Note: If you are using a private repo, then you will need to use your Github username and personal access token to clone the repo via HTTPS method as password authentication method is currently not supported by Github.
+
+It requires the use of personal access tokens rather than traditional passwords so it is necessary for you to create a personal access token to complete the lab (in case you don’t have one). Also this token will be used in further steps for the lab.
+
+Generating a Personal Access Token
+
+Personal Access Token can be created by moving the application settings of your Github account. Proceed to the Settings menu and choose Developer settings, where you will locate the option for Personal Access Token. By utilizing this token, you will be enabled to clone and push to your remote repository using HTTPS. For more help to generate a personal access token, click [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-token).
+
+This creates a directory with the same name as your repository, initializes a .git directory inside it, pulls down all the data for that repository, and creates a working copy of the latest version.
+
+You can now list the files using the ls command and find your new repository. Move into your repository using cd command. There, you'll see the project files, which are ready to be worked on or used.
+
+```cmd
+cd directory_name
+```
+
+Replace the directory_name with your repository's name that you just initialized.
+
+If you want to clone the repository into another directory of your choice, you can do that by passing the name of the directory. This automatically creates a new directory with the specified name and initializes the repository inside it.
+
+Syntax:
+
+```git
+git clone [URL] directory_name
+```
+
 ##### Configure Git
 
 ##### Edit the file and add it to the repository

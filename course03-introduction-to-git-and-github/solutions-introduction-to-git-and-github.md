@@ -1310,9 +1310,15 @@ Replace user@example.com with your email-id. Any future commits you now push to 
 
 ##### Edit the file and add it to the repository
 
+
+
 ##### Create a new file and commit it to the repository
 
+
+
 ##### Add an empty file to the repository through web UI
+
+
 
 ##### Congratulations!
 

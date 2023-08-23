@@ -1292,6 +1292,22 @@ git clone [URL] directory_name
 
 ##### Configure Git
 
+Git uses a username to associate commits with an identity. It does this by using the git config command. Set Git username with the following command:
+
+```git
+git config --global user.name "Name"
+```
+
+Replace Name with your name. Any future commits you push to GitHub from the command line will now be represented by this name. You can use git config to even change the name associated with your Git commits. This will only affect future commits and won't change the name used for past commits.
+
+Let's set your email address to associate them with your Git commits.
+
+```git
+git config --global user.email "user@example.com"
+```
+
+Replace user@example.com with your email-id. Any future commits you now push to GitHub will be associated with this email address. You can also use git config to even change the user email associated with your Git commits.
+
 ##### Edit the file and add it to the repository
 
 ##### Create a new file and commit it to the repository

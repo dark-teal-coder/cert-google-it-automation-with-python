@@ -1310,7 +1310,87 @@ Replace user@example.com with your email-id. Any future commits you now push to 
 
 ##### Edit the file and add it to the repository
 
+Now, edit the README file by using nano editor:
 
+```powershell
+nano README.md
+```
+
+Add any text within the file, or you can use the following text:
+
+```text
+I am editing the README file. Adding some more details about the project description.
+```
+
+Save the file by pressing Ctrl-o, Enter key, and Ctrl-x.
+
+We can check the status using the following command:
+
+```git
+git status
+```
+
+The git status command shows the different states of files in your working directory and staging area, like files that are modified but unstaged and files that are staged but not yet committed.
+
+You can now see that the README.md file shows that it's been modified.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-03-git-status.png" alt="../images/introduction-to-git-and-github-week-03-git-status.png" width="80%" height="80%">
+</p>
+
+Now, let's add the file to the staging area using the following command:
+
+```git
+git add README.md
+```
+
+Use the git add command to add content from the working directory into the staging area for the next commit. When the git commit command is run, it looks at this staging area. So you can use git add to craft what you'd like your next commit snapshot to look like. To check the files in staging area use `git status``.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-03-git-status-01.png" alt="../images/introduction-to-git-and-github-week-03-git-status-01.png" width="80%" height="80%">
+</p>
+
+Let's now commit the changes. A Git commit is like "saving" your work.
+
+Commit the changes using the following command:
+
+```git
+git commit
+```
+
+This now opens an editor that asks you to type a commit message. Every commit has an associated commit message. A commit message is a log message from the user describing the changes.
+
+Enter the commit message of your choice or you can use the following text:
+
+```text
+I am editing the README file.
+```
+
+Once you've entered the commit message, save it by clicking Ctrl-o and the Enter key. To exit click Ctrl-x.
+
+The git commit command captures a snapshot of the project's currently staged changes. It stores the current contents of the index in a new commit along with the commit message.
+
+You've successfully committed your file!
+
+Now, push the committed changes from your local repository to a remote repository on the main branch by using:
+
+```git
+git push origin main
+```
+
+Next, enter your Github username/email ID and personal access token on password prompt to push the changes on the associated remote repository.
+
+Note: If you have cloned a private repository, you would have already generated a personal access token. Therefore, utilize that token to push the changes. In case you are using public repo, please refer to the steps for Generating a Personal Access Token provided earlier in the section Git operations.
+
+Click Check my progress to verify the objective.
+
+You can check the changes made to the local README.md file on the remote repository on [Github](https://github.com). You can see the last time when the README.md file was added/updated.
+
+You can also see the commit ID just above the list of files in the repository. Click on the Commit ID to get more details related to the commit.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-03-commit-id.png" alt="../images/introduction-to-git-and-github-week-03-commit-id.png" width="80%" height="80%">
+</p>
 
 ##### Create a new file and commit it to the repository
 

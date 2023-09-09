@@ -1394,7 +1394,39 @@ You can also see the commit ID just above the list of files in the repository. C
 
 ##### Create a new file and commit it to the repository
 
+You now need to create a new file example.py on the local git repository in the working directory. To do this, use the following command:
 
+```git
+nano example.py
+```
+
+Add the following Python script to the example.py file:
+
+```python
+def git_opeation():
+    print("I am adding example.py file to the remote repository.")
+git_opeation()
+```
+
+Save the file by pressing Ctrl-o, Enter key, and Ctrl-x.
+
+Now, repeat the same procedure by adding a file to the staging area for next commit:
+
+```git
+git add example.py
+```
+
+Commit the changes:
+
+```git
+git commit
+```
+
+Enter a commit message and save it by pressing Ctrl-o and the Enter key. To exit click Ctrl-x.
+
+We will push these changes later in the lab.
+
+Click Check my progress to verify the objective.
 
 ##### Add an empty file to the repository through web UI
 

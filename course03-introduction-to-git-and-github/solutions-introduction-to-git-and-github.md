@@ -1430,7 +1430,69 @@ Click Check my progress to verify the objective.
 
 ##### Add an empty file to the repository through web UI
 
+Now, let's create an empty file on the remote repository using the Github website.
 
+1. Go to your repository on the Github website and click on the Add file button, then click on Create new file. This will open a new page.
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-03-add-empty-file.png" alt="../images/introduction-to-git-and-github-week-03-add-empty-file.png" width="80%" height="80%">
+</p>
+
+2. Enter the file's name in the box beside your repository's name. Leave the contents of the file empty.
+
+3. Scroll down and enter a commit message in the first box under Commit new file section.
+
+4. Leave the rest on its default value and click the Commit new file button.
+
+You've successfully committed a new file through the website.
+
+Now, let's push the changes made on the local repository that weren't pushed. Switch back to your terminal and enter the following command:
+
+```git
+git push origin main
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-03-git-push-origin-main.png" alt="../images/introduction-to-git-and-github-week-03-git-push-origin-main.png" width="80%" height="80%">
+</p>
+
+The last command throws an error. This is because the files added or change done on a remote repository (the Github website) isn't present yet on your local repository, but we're trying to push something from the local repository to the remote repository. To push changes from the local repository, we need to first update the local repository from the remote repository.
+
+Let's now pull the current snapshot/commit in the remote repository to the local repository:
+
+```git
+git pull origin main
+```
+
+This opens an editor that asks you to enter a commit message for the merge operation (remote repository to local repository).
+
+You can simply accept the default message or type your own message. To continue, save the file by pressing Ctrl-o, Enter key, and Ctrl-x.
+
+The git pull command is used to fetch and download content from a remote repository and update the local repository to match that content.
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-03-git-pull-origin-main.png" alt="../images/introduction-to-git-and-github-week-03-git-pull-origin-main.png" width="80%" height="80%">
+</p>
+
+Now try pushing the changes again.
+
+```git
+git push origin main
+```
+
+Output:
+
+<p align="center">
+    <img src="../images/introduction-to-git-and-github-week-03-git-push-origin-main-01.png" alt="../images/introduction-to-git-and-github-week-03-git-push-origin-main-01.png" width="80%" height="80%">
+</p>
+
+This shows that your local repository is now up-to-date with your remote repository and you successfully pushed the changes to the remote repository.
+
+Click Check my progress to verify the objective.
 
 ##### Congratulations!
 

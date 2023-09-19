@@ -14,3 +14,5 @@ Courses
    - 14 hours
 6. Automating Real-World Tasks with Python
    - 17 hours
+
+Course 1 images are screenshots of the problems and solutions in the graded assessments. The image files are not referenced anywhere. The text of the problems and solutions are in [solutions-crash-course-on-python.md](./course01-crash-course-on-python/solutions-crash-course-on-python.md).

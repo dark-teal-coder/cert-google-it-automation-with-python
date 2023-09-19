@@ -18,4 +18,5 @@ Courses
 Notes
 
 - Course 1 images are screenshots of the problems and solutions in the graded assessments. The image files are not referenced anywhere. The text of the problems and solutions are in [solutions-crash-course-on-python.md](./course01-crash-course-on-python/solutions-crash-course-on-python.md).
-- Each time we start the lab, the PPK file generated will be different.
+- Each time we start week 2 lab in course 3, the PPK file generated will be different.
+- Each time we start week 2 lab in course 3, Linux instance external IP address and username will be different. Compare ![course-03-week-02-vm-instance-01.png](./images/course-03-week-02-vm-instance-01.png) with ![course-03-week-02-vm-instance-01.png](./images/course-03-week-02-vm-instance-02.png).

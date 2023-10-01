@@ -201,7 +201,7 @@ ssh -i ~/Downloads/qwikLABS-XXXXX.pem username@External Ip Address
 ```
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-ssh-command-connecting-vm.png" alt="../images/introduction-to-git-and-github-week-01-ssh-command-connecting-vm.png" width="80%" height="80%">
+    <img src="../images/course-03-week-01-ssh-command-connecting-vm.png" alt="../images/course-03-week-01-ssh-command-connecting-vm.png" width="80%" height="80%">
 </p>
 
 ###### Option 3: Chrome OS users: Connecting to your VM via SSH

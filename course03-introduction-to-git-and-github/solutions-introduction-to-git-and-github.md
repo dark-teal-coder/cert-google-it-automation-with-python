@@ -104,7 +104,7 @@ You'll need to start the lab before you can access the materials in the virtual 
 Note: For this lab you are going to access the Linux VM through your local SSH Client, and not use the Google Console (Open GCP Console button is not available for this lab).
 
 <p align="left">
-    <img src="../images/introduction-to-git-and-github-week-01-start-lab.png" alt="../images/course-03-week-01-start-lab.png" width="10%" height="10%">
+    <img src="../images/course-03-week-01-start-lab.png" alt="../images/course-03-week-01-start-lab.png" width="10%" height="10%">
 </p>
 
 After you click the “Start Lab” button, you will see all the SSH connection details on the left-hand side of your screen. You should have a screen that looks like this:

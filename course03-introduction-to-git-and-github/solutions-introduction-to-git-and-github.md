@@ -213,7 +213,7 @@ Note: Make sure you are not in Incognito/Private mode while launching the applic
 You can download the private key file in PEM format from the Qwiklabs Start Lab page. Click on Download PEM.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-download-pem.png" alt="../images/introduction-to-git-and-github-week-01-download-pem.png" width="30%" height="30%">
+    <img src="../images/course-03-week-01-download-pem.png" alt="../images/course-03-week-01-download-pem.png" width="30%" height="30%">
 </p>
 
 **Connect to your VM**

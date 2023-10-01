@@ -110,7 +110,7 @@ Note: For this lab you are going to access the Linux VM through your local SSH C
 After you click the “Start Lab” button, you will see all the SSH connection details on the left-hand side of your screen. You should have a screen that looks like this:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-ssh-connection.png" alt="../images/introduction-to-git-and-github-week-01-ssh-connection.png" width="40%" height="40%">
+    <img src="../images/course-03-week-01-ssh-connection.png" alt="../images/course-03-week-01-ssh-connection.png" width="40%" height="40%">
 </p>
 
 ##### Accessing the virtual machine

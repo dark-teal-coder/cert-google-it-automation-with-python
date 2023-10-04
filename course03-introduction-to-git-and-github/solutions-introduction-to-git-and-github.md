@@ -497,7 +497,7 @@ For feedback, suggestions, or corrections, please use the Support tab.
 14. Check progress to see if the 1st commit is successful
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-check-my-progress-02.png" alt="../images/introduction-to-git-and-github-week-01-check-my-progress-02.png" width="80%" height="80%">
+    <img src="../images/course-03-week-01-check-my-progress-02.png" alt="../images/course-03-week-01-check-my-progress-02.png" width="80%" height="80%">
 </p>
 
 15. Update README content

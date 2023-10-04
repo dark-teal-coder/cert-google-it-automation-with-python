@@ -509,7 +509,7 @@ For feedback, suggestions, or corrections, please use the Support tab.
 16. Check if README has been updated; see the previous and current versions of README; git-add and git-commit README again; check commit messages
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-readme-git-add-git-commit-again.png" alt="../images/introduction-to-git-and-github-week-01-readme-git-add-git-commit-again.png" width="80%" height="80%">
+    <img src="../images/course-03-week-01-readme-git-add-git-commit-again.png" alt="../images/course-03-week-01-readme-git-add-git-commit-again.png" width="80%" height="80%">
 </p>
 
 17. Check progress to see if the 2nd commit is successful

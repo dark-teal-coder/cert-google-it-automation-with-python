@@ -485,7 +485,7 @@ For feedback, suggestions, or corrections, please use the Support tab.
 13. Create and update README file
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-readme-content.png" alt="../images/introduction-to-git-and-github-week-01-readme-content.png" width="80%" height="80%">
+    <img src="../images/course-03-week-01-readme-content.png" alt="../images/course-03-week-01-readme-content.png" width="80%" height="80%">
 </p>
 
 13. Check if README is created, git-add and git-commit README

@@ -359,7 +359,7 @@ This command adds changes from the working tree to the staging area i.e., it gat
 You can now view the status of the working tree using the command: git status. This now shows the file README in green i.e., the file is now in the staging area and yet to be committed.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-git-status-02.png" alt="../images/introduction-to-git-and-github-week-01-git-status-02.png" width="80%" height="80%">
+    <img src="../images/course-03-week-01-git-status-02.png" alt="../images/course-03-week-01-git-status-02.png" width="80%" height="80%">
 </p>
 
 However, git add doesn't affect the repository in any serious way because changes are not actually recorded until you commit them.

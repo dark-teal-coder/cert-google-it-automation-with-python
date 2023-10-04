@@ -437,7 +437,7 @@ For feedback, suggestions, or corrections, please use the Support tab.
 5. After clicking [Open], we will see PuTTY security alert
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-putty-security-alert.png" alt="../images/introduction-to-git-and-github-week-01-putty-security-alert.png" width="50%" height="50%">
+    <img src="../images/course-03-week-01-putty-security-alert.png" alt="../images/course-03-week-01-putty-security-alert.png" width="50%" height="50%">
 </p>
 
 6. Upon successful connection, a Linux instance will pop up

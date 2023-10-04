@@ -431,7 +431,7 @@ For feedback, suggestions, or corrections, please use the Support tab.
 4. Import `.ppk` private key file for authentification
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-browse-ppk-file.png" alt="../images/introduction-to-git-and-github-week-01-browse-ppk-file.png" width="50%" height="50%">
+    <img src="../images/course-03-week-01-browse-ppk-file.png" alt="../images/course-03-week-01-browse-ppk-file.png" width="50%" height="50%">
 </p>
 
 5. After clicking [Open], we will see PuTTY security alert

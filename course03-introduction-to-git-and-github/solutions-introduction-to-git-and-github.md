@@ -794,7 +794,7 @@ Run the following command to see the output of food_question.py script:
 Output:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-02-execute-py-file-02.png" alt="../images/introduction-to-git-and-github-week-02-execute-py-file-02.png" width="80%" height="80%">
+    <img src="../images/course-03-week-02-execute-py-file-02.png" alt="../images/course-03-week-02-execute-py-file-02.png" width="80%" height="80%">
 </p>
 
 Uh oh , this gives us an error. One of your colleagues reports that this script was working fine until the most recent commit. We'll be fixing this error later during the lab.

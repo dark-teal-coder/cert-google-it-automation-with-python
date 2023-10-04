@@ -419,7 +419,7 @@ For feedback, suggestions, or corrections, please use the Support tab.
 2. Fill in [Host Name]
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-hostname-connection_type.png" alt="../images/introduction-to-git-and-github-week-01-hostname-connection_type.png" width="50%" height="50%">
+    <img src="../images/introduction-to-git-and-github-week-01-hostname-connection_type.png" alt="../images/course-03-week-01-hostname-connection_type.png" width="50%" height="50%">
 </p>
 
 3. Open SSH Credentials

@@ -780,7 +780,7 @@ Let's execute the script food_count.py:
 Output:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-02-execute-py-file-01.png" alt="../images/introduction-to-git-and-github-week-02-execute-py-file-01.png" width="80%" height="80%">
+    <img src="../images/course-03-week-02-execute-py-file-01.png" alt="../images/course-03-week-02-execute-py-file-01.png" width="80%" height="80%">
 </p>
 
 3. food_question.py: This prints a list of foods and prompts the user to enter one of those foods as their favorite. It then returns an answer of how many others in the list like that same food.

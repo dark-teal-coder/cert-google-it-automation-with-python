@@ -503,7 +503,7 @@ For feedback, suggestions, or corrections, please use the Support tab.
 15. Update README content
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-readme-content-updated.png" alt="../images/introduction-to-git-and-github-week-01-readme-content-updated.png" width="80%" height="80%">
+    <img src="../images/course-03-week-01-readme-content-updated.png" alt="../images/course-03-week-01-readme-content-updated.png" width="80%" height="80%">
 </p>
 
 16. Check if README has been updated; see the previous and current versions of README; git-add and git-commit README again; check commit messages

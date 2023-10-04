@@ -467,7 +467,7 @@ For feedback, suggestions, or corrections, please use the Support tab.
 10. Check progress to see if Git is installed
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-check-my-progress-01.png" alt="../images/introduction-to-git-and-github-week-01-check-my-progress-01.png" width="80%" height="80%">
+    <img src="../images/course-03-week-01-check-my-progress-01.png" alt="../images/course-03-week-01-check-my-progress-01.png" width="80%" height="80%">
 </p>
 
 11. Initialize a new repository

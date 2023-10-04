@@ -752,7 +752,7 @@ cd ~/food-scripts
 Now, list the files using the ls command. There are three files named favorite_foods.log, food_count.py, and food_question.py.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-02-list-repo.png" alt="../images/introduction-to-git-and-github-week-02-list-repo.png" width="80%" height="80%">
+    <img src="../images/course-03-week-02-list-repo.png" alt="../images/course-03-week-02-list-repo.png" width="80%" height="80%">
 </p>
 
 Let's explore each file. Use the cat command to view each file.

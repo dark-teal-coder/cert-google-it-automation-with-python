@@ -886,7 +886,7 @@ Save the file by pressing Ctrl-o, the Enter key, and Ctrl-x. Then run the script
 Output:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-02-execute-py-file-03.png" alt="../images/introduction-to-git-and-github-week-02-execute-py-file-03.png" width="80%" height="80%">
+    <img src="../images/course-03-week-02-execute-py-file-03.png" alt="../images/course-03-week-02-execute-py-file-03.png" width="80%" height="80%">
 </p>
 
 After running the food_count.py script successfully, commit the changes from the improve-output branch by adding this script to the staging area using the following command:

@@ -826,7 +826,7 @@ git log
 Output:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-02-git-log-01.png" alt="../images/introduction-to-git-and-github-week-02-git-log-01.png" width="80%" height="80%">
+    <img src="../images/course-03-week-02-git-log-01.png" alt="../images/course-03-week-02-git-log-01.png" width="80%" height="80%">
 </p>
 
 Git branch: Branches are a part of the everyday development process on the master branch. Git branches effectively function as a pointer to a snapshot of your changes. When you want to add a new feature or fix a bug, no matter how big or small, you spawn a new branch to encapsulate your changes. This makes it difficult for unstable code to get merged into the main codebase.

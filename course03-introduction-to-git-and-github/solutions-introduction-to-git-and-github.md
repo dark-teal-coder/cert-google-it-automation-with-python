@@ -766,7 +766,7 @@ cat favorite_foods.log
 Output:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-02-view-log-file.png" alt="../images/introduction-to-git-and-github-week-02-view-log-file.png" width="80%" height="80%">
+    <img src="../images/course-03-week-02-view-log-file.png" alt="../images/course-03-week-02-view-log-file.png" width="80%" height="80%">
 </p>
 
 2. food_count.py: This script returns a list of each food and the number of times the food appeared in the favorite_foods.log file.

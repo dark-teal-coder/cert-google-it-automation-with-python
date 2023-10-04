@@ -425,7 +425,7 @@ For feedback, suggestions, or corrections, please use the Support tab.
 3. Open SSH Credentials
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-connection-ssh-auth-credentials.png" alt="../images/introduction-to-git-and-github-week-01-connection-ssh-auth-credentials.png" width="50%" height="50%">
+    <img src="../images/course-03-week-01-connection-ssh-auth-credentials.png" alt="../images/course-03-week-01-connection-ssh-auth-credentials.png" width="50%" height="50%">
 </p>
 
 4. Import `.ppk` private key file for authentification

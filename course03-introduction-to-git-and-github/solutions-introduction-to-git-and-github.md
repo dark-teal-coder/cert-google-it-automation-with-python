@@ -994,7 +994,7 @@ Now, all your changes made in the improve-output branch are on the master branch
 Output:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-02-execute-py-file-06.png" alt="../images/introduction-to-git-and-github-week-02-execute-py-file-06.png" width="80%" height="80%">
+    <img src="../images/course-03-week-02-execute-py-file-06.png" alt="../images/course-03-week-02-execute-py-file-06.png" width="80%" height="80%">
 </p>
 
 To get the status from the master branch, use the command below:

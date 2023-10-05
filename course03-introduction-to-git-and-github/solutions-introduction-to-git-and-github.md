@@ -1006,7 +1006,7 @@ git status
 Output:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-02-git-status.png" alt="../images/introduction-to-git-and-github-week-02-git-status.png" width="80%" height="80%">
+    <img src="../images/course-03-week-02-git-status.png" alt="../images/course-03-week-02-git-status.png" width="80%" height="80%">
 </p>
 
 To track the git commit logs, use the following command:

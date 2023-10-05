@@ -1475,7 +1475,7 @@ The git pull command is used to fetch and download content from a remote reposit
 Output:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-03-git-pull-origin-main.png" alt="../images/introduction-to-git-and-github-week-03-git-pull-origin-main.png" width="80%" height="80%">
+    <img src="../images/course-03-week-03-git-pull-origin-main.png" alt="../images/course-03-week-03-git-pull-origin-main.png" width="80%" height="80%">
 </p>
 
 Now try pushing the changes again.

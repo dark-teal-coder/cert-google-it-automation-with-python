@@ -1234,7 +1234,7 @@ To create a git repository, you need to have a Github account. Follow the steps 
 - Click the + sign in the top-right corner of the page and click then on New repository.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-03-new-repo.png" alt="../images/introduction-to-git-and-github-week-03-new-repo.png" width="80%" height="80%">
+    <img src="../images/course-03-week-03-new-repo.png" alt="../images/course-03-week-03-new-repo.png" width="80%" height="80%">
 </p>
 
 - Enter your repository name in the field Repository name and add a project description in the Description field.

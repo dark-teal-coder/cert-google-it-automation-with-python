@@ -1335,7 +1335,7 @@ The git status command shows the different states of files in your working direc
 You can now see that the README.md file shows that it's been modified.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-03-git-status.png" alt="../images/introduction-to-git-and-github-week-03-git-status.png" width="80%" height="80%">
+    <img src="../images/course-03-week-03-git-status.png" alt="../images/course-03-week-03-git-status.png" width="80%" height="80%">
 </p>
 
 Now, let's add the file to the staging area using the following command:

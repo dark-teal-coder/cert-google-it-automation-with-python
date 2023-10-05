@@ -1117,7 +1117,7 @@ You can download the VM’s private key file in the PuTTY-compatible PPK format 
 Note: Replace username and external_ip_address with values provided in the lab.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-putty-config.gif" alt="../images/introduction-to-git-and-github-week-01-putty-config.gif" width="50%" height="50%">
+    <img src="../images/course-03-week-01-putty-config.gif" alt="../images/course-03-week-01-putty-config.gif" width="50%" height="50%">
 </p>
 
 3. In the Connection list, expand SSH.

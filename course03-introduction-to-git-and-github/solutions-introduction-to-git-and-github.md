@@ -1253,7 +1253,7 @@ git clone [URL]
 For the URL, you can either choose an SSH or an HTTPS link as a URL. We will use HTTPS to clone the Git repository. Click on Clone or download and select HTTPS. Copy the HTTPS link by clicking on the Copy button beside the link.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-03-git-clone.gif" alt="../images/introduction-to-git-and-github-week-03-git-clone.gif" width="80%" height="80%">
+    <img src="../images/course-03-week-03-git-clone.gif" alt="../images/course-03-week-03-git-clone.gif" width="80%" height="80%">
 </p>
 
 Next, go to your linux-instance terminal and replace [URL] from the above syntax with the link you copied. The command should now look similar to:

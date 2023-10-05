@@ -920,7 +920,7 @@ In this section, we'll fix the script food_question.py, which displayed an error
 Output:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-02-execute-py-file-04.png" alt="../images/introduction-to-git-and-github-week-02-execute-py-file-04.png" width="80%" height="80%">
+    <img src="../images/course-03-week-02-execute-py-file-04.png" alt="../images/course-03-week-02-execute-py-file-04.png" width="80%" height="80%">
 </p>
 
 This script gives us the error: "NameError: name 'item' is not defined" but your colleague says that the file was running fine before the most recent commit they did.

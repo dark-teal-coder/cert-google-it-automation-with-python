@@ -1435,7 +1435,7 @@ Now, let's create an empty file on the remote repository using the Github websit
 1. Go to your repository on the Github website and click on the Add file button, then click on Create new file. This will open a new page.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-03-add-empty-file.png" alt="../images/introduction-to-git-and-github-week-03-add-empty-file.png" width="80%" height="80%">
+    <img src="../images/course-03-week-03-add-empty-file.png" alt="../images/course-03-week-03-add-empty-file.png" width="80%" height="80%">
 </p>
 
 2. Enter the file's name in the box beside your repository's name. Leave the contents of the file empty.

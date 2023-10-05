@@ -1133,7 +1133,7 @@ Note: Replace username and external_ip_address with values provided in the lab.
 Note: PPK file is to be imported into PuTTY tool using the Browse option available in it. It should not be opened directly but only to be used in PuTTY.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-01-putty-config-ssh-connection-auth.gif" alt="../images/introduction-to-git-and-github-week-01-putty-config-ssh-connection-auth.gif" width="50%" height="50%">
+    <img src="../images/course-03-week-01-putty-config-ssh-connection-auth.gif" alt="../images/course-03-week-01-putty-config-ssh-connection-auth.gif" width="50%" height="50%">
 </p>
 
 8. Click Yes when prompted to allow a first connection to this remote SSH server. Because you are using a key pair for authentication, you will not be prompted for a password.

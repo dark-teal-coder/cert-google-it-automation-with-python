@@ -1347,7 +1347,7 @@ git add README.md
 Use the git add command to add content from the working directory into the staging area for the next commit. When the git commit command is run, it looks at this staging area. So you can use git add to craft what you'd like your next commit snapshot to look like. To check the files in staging area use `git status``.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-03-git-status-01.png" alt="../images/introduction-to-git-and-github-week-03-git-status-01.png" width="80%" height="80%">
+    <img src="../images/course-03-week-03-git-status-01.png" alt="../images/course-03-week-03-git-status-01.png" width="80%" height="80%">
 </p>
 
 Let's now commit the changes. A Git commit is like "saving" your work.

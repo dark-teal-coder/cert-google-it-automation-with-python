@@ -1455,7 +1455,7 @@ git push origin main
 Output:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-03-git-push-origin-main.png" alt="../images/introduction-to-git-and-github-week-03-git-push-origin-main.png" width="80%" height="80%">
+    <img src="../images/course-03-week-03-git-push-origin-main.png" alt="../images/course-03-week-03-git-push-origin-main.png" width="80%" height="80%">
 </p>
 
 The last command throws an error. This is because the files added or change done on a remote repository (the Github website) isn't present yet on your local repository, but we're trying to push something from the local repository to the remote repository. To push changes from the local repository, we need to first update the local repository from the remote repository.

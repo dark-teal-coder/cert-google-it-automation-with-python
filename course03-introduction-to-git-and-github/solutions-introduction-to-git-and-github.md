@@ -982,7 +982,7 @@ git merge improve-output
 Output:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-02-git-merge.png" alt="../images/introduction-to-git-and-github-week-02-git-merge.png" width="80%" height="80%">
+    <img src="../images/course-03-week-02-git-merge.png" alt="../images/course-03-week-02-git-merge.png" width="80%" height="80%">
 </p>
 
 Now, all your changes made in the improve-output branch are on the master branch.

@@ -936,7 +936,7 @@ git log
 Output:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-02-git-log-02.png" alt="../images/introduction-to-git-and-github-week-02-git-log-02.png" width="80%" height="80%">
+    <img src="../images/course-03-week-02-git-log-02.png" alt="../images/course-03-week-02-git-log-02.png" width="80%" height="80%">
 </p>
 
 Here, you'll see the commits in reverse chronological order and find the commit having "Rename item variable to food_item" as a commit message. Make sure to note the commit ID for this particular commit.

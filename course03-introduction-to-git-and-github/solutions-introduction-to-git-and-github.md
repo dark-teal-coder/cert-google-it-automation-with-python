@@ -962,7 +962,7 @@ Now, run food_question.py again and verify that it's working as intended.
 Output:
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-02-execute-py-file-05.png" alt="../images/introduction-to-git-and-github-week-02-execute-py-file-05.png" width="80%" height="80%">
+    <img src="../images/course-03-week-02-execute-py-file-05.png" alt="../images/course-03-week-02-execute-py-file-05.png" width="80%" height="80%">
 </p>
 
 ##### Merge operation

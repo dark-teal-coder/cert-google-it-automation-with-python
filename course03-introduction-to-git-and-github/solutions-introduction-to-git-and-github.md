@@ -1389,7 +1389,7 @@ You can check the changes made to the local README.md file on the remote reposit
 You can also see the commit ID just above the list of files in the repository. Click on the Commit ID to get more details related to the commit.
 
 <p align="center">
-    <img src="../images/introduction-to-git-and-github-week-03-commit-id.png" alt="../images/introduction-to-git-and-github-week-03-commit-id.png" width="80%" height="80%">
+    <img src="../images/course-03-week-03-commit-id.png" alt="../images/course-03-week-03-commit-id.png" width="80%" height="80%">
 </p>
 
 ##### Create a new file and commit it to the repository

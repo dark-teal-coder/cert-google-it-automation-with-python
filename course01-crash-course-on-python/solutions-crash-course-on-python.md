@@ -10,7 +10,7 @@ For type 1, start the solution with `- [x]`; for type 2, use triple backticks to
 
 The graded assessments usually have 10 questions in them but there is a pool of over 10 questions for every graded assessment. Therefore, we get different questions every time we attempt the assessments. The following solutions may not all be the same as what you see when you do the assessments.
 
-## Week 1
+## Module 1
 
 ### Course Introduction
 
@@ -107,7 +107,7 @@ print(ratio)
 
 ### Module 1 Review
 
-#### Week 1 Graded Assessment
+#### Module 1 Graded Assessment
 
 ***Solution 01***
 
@@ -166,7 +166,7 @@ sector_amount = disk_size / sector_size
 print(sector_amount) ## Output: 33554432.0
 ```
 
-## Week 2
+## Module 2
 
 ### Expressions and Variables
 
@@ -326,7 +326,7 @@ print(calculate_storage(6000)) # Should be 8192
 
 ### Module 2 Review
 
-#### Week 2 Graded Assessment
+#### Module 2 Graded Assessment
 
 ***Solution 01***
 
@@ -428,7 +428,7 @@ Multiple answers:
 - [x] Adding comments
 - [x] Refactoring the code
 
-## Week 3
+## Module 3
 
 ### While Loops
 
@@ -659,7 +659,7 @@ print(sum_positive_numbers(5)) # Should be 15
 
 ### Module 3 Review
 
-#### Week 3 Graded Assessment
+#### Module 3 Graded Assessment
 
 ***Solution 01***
 
@@ -788,7 +788,7 @@ print(odd_numbers(0)) ## No numbers displayed
 
 - [x] Variable "x" is assigned the value 1 in every loop
 
-## Week 4
+## Module 4
 
 ### Strings
 
@@ -1037,7 +1037,7 @@ print(add_prices(groceries)) # Should print 28.44
 
 ### Module 4 Review
 
-#### Week 4 Graded Assessment
+#### Module 4 Graded Assessment
 
 ***Solution 01***
 
@@ -1197,7 +1197,7 @@ print(count_letters("This is a sentence."))
 
 - [x] dict_values(['Aniyah Cook', 'Ines Bisset', 'Wayne Branon'])
 
-## Week 5
+## Module 5
 
 ### Object-oriented Programming (Optional)
 
@@ -1209,7 +1209,7 @@ print(count_letters("This is a sentence."))
 
 #### Practice Notebook: Object Oriented Programming (Optional)
 
-## Week 6
+## Module 6
 
 ### Writing a Script from the Ground Up
 

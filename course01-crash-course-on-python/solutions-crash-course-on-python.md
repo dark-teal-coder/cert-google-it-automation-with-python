@@ -10,13 +10,13 @@ For type 1, start the solution with `- [x]`; for type 2, use triple backticks to
 
 The graded assessments usually have 10 questions in them but there is a pool of over 10 questions for every graded assessment. Therefore, we get different questions every time we attempt the assessments. The following solutions may not all be the same as what you see when you do the assessments.
 
-## Module 1
+---
 
-### Course Introduction
+## Module 01 Hello Python!
 
-### Introduction to Programming
+### 01.02 Introduction to Programming
 
-#### Practice Quiz: Introduction to Programming
+#### 01.02.07 Practice Quiz: Introduction to Programming
 
 ***Solution 01***
 
@@ -41,9 +41,9 @@ Multiple answers:
 
 - [x] The intended meaning or logic of coded statements
 
-### Introduction to Python
+### 01.03 Introduction to Python
 
-#### Practice Quiz: Introduction to Python
+#### 01.03.07 Practice Quiz: Introduction to Python
 
 ***Solution 01***
 
@@ -76,9 +76,9 @@ Multiple answers:
 - [x] Python works well as a scripting language for IT automation.
 - [x] Python can be used to calculate statistics, run e-commerce sites, process images, interact with web services, and more.
 
-### Hello World
+### 01.04 Hello World
 
-#### Practice Quiz: Hello World
+#### 01.04.08 Practice Quiz: Hello World
 
 ***Solution 01***
 
@@ -105,9 +105,9 @@ ratio = (1 + 5**(1/2))/2
 print(ratio)
 ```
 
-### Module 1 Review
+### Module 01 Review
 
-#### Module 1 Graded Assessment
+#### 01.05.05 Quiz: Module 01 Graded Assessment
 
 ***Solution 01***
 
@@ -166,11 +166,13 @@ sector_amount = disk_size / sector_size
 print(sector_amount) ## Output: 33554432.0
 ```
 
-## Module 2
+---
 
-### Expressions and Variables
+## Module 02 Basic Python Syntax
 
-#### Practice Quiz: Expressions and Variables
+### 02.01 Expressions and Variables
+
+#### 02.01.10 Practice quiz: Expressions and Variables
 
 ***Solution 01***
 
@@ -215,9 +217,9 @@ print(word1, word2, word3, word4, word5, word6, word7, sep=" ")
 
 - [x] An expression
 
-### Functions
+### 02.02 Functions
 
-#### Practice Quiz: Functions
+#### 02.02.11 Practice Quiz: Functions
 
 ***Solution 01***
 
@@ -273,9 +275,9 @@ print_seconds(1,20,30)
 
 - [x] Used to define a new function
 
-### Conditionals
+### 02.03 Conditionals
 
-#### Practice Quiz: Conditionals
+#### 02.03.15 Practice Quiz: Conditionals
 
 ***Solution 01***
 
@@ -324,9 +326,9 @@ print(calculate_storage(4097)) # Should be 8192
 print(calculate_storage(6000)) # Should be 8192
 ```
 
-### Module 2 Review
+### Module 02 Review
 
-#### Module 2 Graded Assessment
+#### 02.04.04 Quiz: Module 02 Graded Assessment
 
 ***Solution 01***
 
@@ -428,11 +430,13 @@ Multiple answers:
 - [x] Adding comments
 - [x] Refactoring the code
 
-## Module 3
+---
 
-### While Loops
+## Module 03 Loops
 
-#### Practice Quiz: While Loops
+### 03.01 While Loops
+
+#### 03.01.12 Practice Quiz: While Loops
 
 ***Solution 01***
 
@@ -547,9 +551,9 @@ multiplication_table(8)
 # 8x3=24
 ```
 
-### For Loops
+### 03.02 For Loops
 
-#### Practice Quiz: For Loops
+#### 03.02.14 Practice Quiz: For Loops
 
 ***Solution 01***
 
@@ -597,9 +601,9 @@ for x in range(0, 101, 7):
     print(x)
 ```
 
-### Recursion (Optional)
+### 03.03 Recursion (Optional)
 
-#### Practice Quiz: Recursion
+#### 03.03.06 Practice Quiz: Recursion
 
 ***Solution 01***
 
@@ -657,9 +661,9 @@ print(sum_positive_numbers(3)) # Should be 6
 print(sum_positive_numbers(5)) # Should be 15
 ```
 
-### Module 3 Review
+### Module 03 Review
 
-#### Module 3 Graded Assessment
+#### 03.04.05 Quiz: Module 03 Graded Assessment
 
 ***Solution 01***
 
@@ -788,11 +792,13 @@ print(odd_numbers(0)) ## No numbers displayed
 
 - [x] Variable "x" is assigned the value 1 in every loop
 
-## Module 4
+---
 
-### Strings
+## Module 04 Strings, Lists and Dictionaries
 
-#### Practice Quiz: Strings
+### 04.01 Strings
+
+#### 04.01.19 Practice Quiz: Strings
 
 ***Solution 01***
 
@@ -891,9 +897,9 @@ print(replace_ending("The weather is nice in May", "May", "April"))
 # Should display "The weather is nice in April"
 ```
 
-### Lists
+### 04.02 Lists
 
-#### Practice Quiz: Lists
+#### 04.02.17 Practice Quiz: Lists
 
 ***Solution 01***
 
@@ -966,9 +972,9 @@ Amanda is 25 years old and works as Engineer
 """
 ```
 
-### Dictionaries
+### 04.03 Dictionaries
 
-#### Practice Quiz: Dictionaries
+#### 04.03.09 Practice Quiz: Dictionaries
 
 ***Solution 01***
 
@@ -1035,9 +1041,9 @@ groceries = {"bananas": 1.56, "apples": 2.50, "oranges": 0.99, "bread": 4.59,
 print(add_prices(groceries)) # Should print 28.44
 ```
 
-### Module 4 Review
+### Module 04 Review
 
-#### Module 4 Graded Assessment
+#### 04.05.05 Quiz: Module 04 Graded Assessment
 
 ***Solution 01***
 
@@ -1197,14 +1203,8 @@ print(count_letters("This is a sentence."))
 
 - [x] dict_values(['Aniyah Cook', 'Ines Bisset', 'Wayne Branon'])
 
-## Module 5
+---
 
-### Object-oriented Programming (Optional)
+## Module 05 Final Project
 
-### Classes and Methods (Optional)
-
-### Code Reuse
-
-### Module 5 Review
-
-#### Practice Notebook: Object Oriented Programming (Optional)
+#### 05.01.13 Quiz: Module 05 Graded Assessment

@@ -1,6 +1,6 @@
 # Solutions to Problems in Introduction to Git and GitHub
 
-## Week 1
+## Module 1
 
 ### Course Introduction
 
@@ -518,7 +518,7 @@ For feedback, suggestions, or corrections, please use the Support tab.
     <img src="../images/course-03-week-01-check-my-progress-03.png" alt="../images/course-03-week-01-check-my-progress-03.png" width="80%" height="80%">
 </p>
 
-## Week 2
+## Module 2
 
 ### Advanced Git interaction
 
@@ -1047,7 +1047,7 @@ You can close the dialog box if you don't want to provide feedback.
 
 For feedback, suggestions, or corrections, please use the Support tab.
 
-## Week 3
+## Module 3
 
 ### Introduction to GitHub
 
@@ -1516,7 +1516,7 @@ You can close the dialog box if you don't want to provide feedback.
 
 For feedback, suggestions, or corrections, please use the Support tab.
 
-## Week 4
+## Module 4
 
 ### Pull Requests
 

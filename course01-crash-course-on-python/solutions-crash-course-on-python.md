@@ -12,7 +12,7 @@ The graded assessments usually have 10 questions in them but there is a pool of 
 
 ---
 
-## Module 01 Hello Python!
+## Module 01 Hello Python
 
 ### 01.02 Introduction to Programming
 
@@ -1206,5 +1206,7 @@ print(count_letters("This is a sentence."))
 ---
 
 ## Module 05 Final Project
+
+### 05.01 Writing a Script from the Ground Up
 
 #### 05.01.13 Quiz: Module 05 Graded Assessment

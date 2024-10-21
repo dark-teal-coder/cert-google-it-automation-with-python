@@ -1208,9 +1208,3 @@ print(count_letters("This is a sentence."))
 ### Module 5 Review
 
 #### Practice Notebook: Object Oriented Programming (Optional)
-
-## Module 6
-
-### Writing a Script from the Ground Up
-
-### Course Wrap-Up

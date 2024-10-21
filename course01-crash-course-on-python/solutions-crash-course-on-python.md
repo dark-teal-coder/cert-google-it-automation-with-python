@@ -111,7 +111,7 @@ print(ratio)
 
 ***Solution 01***
 
-- [x] Computers do exactly what they are told.
+- [x] Step-by-step instructions on how to complete a set of tasks, to be executed by a computer.
 
 ***Solution 02***
 
@@ -121,49 +121,49 @@ print(ratio)
 
 Multiple answers:
 
-- [x] Consistency
-- [x] Doesn’t get tired
+- [x] Detecting and removing duplicate data
+- [x] Updating specific files on multiple computers
 
 ***Solution 04***
 
-- [x] Semantics
+- [x] Syntax is a set of rules for how statements are constructed. Semantics refers to the intended meaning or effect of statements.
 
 ***Solution 05***
 
-- [x] Code is similar to the English language.
+- [x] Interpreter
 
 ***Solution 06***
 
-```python
-print("I am writing Python code!")
-```
+- [x] `print()`
 
 ***Solution 07***
 
-- [x] 3.16
+- [x] 8.0
 
 ***Solution 08***
 
 ```python
-print(86400*7)
-## Output: 604800
+# Enter code here:
+print(24*60)
+
+# Should print 1440
 ```
 
 ***Solution 09***
 
 ```python
-print(26**6)
-## Output: 308915776
+# Should print 1000
+print(10**3)
 ```
 
 ***Solution 10***
 
 ```python
-disk_size = 16*1024*1024*1024
-sector_size = 512
-sector_amount = disk_size / sector_size
+download_size_kb = 200*1024
+total_computers = 200
+total_kbs = download_size_kb * total_computers
 
-print(sector_amount) ## Output: 33554432.0
+print(total_kbs) # Should print 40960000.0
 ```
 
 ---

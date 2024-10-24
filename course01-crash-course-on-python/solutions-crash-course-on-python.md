@@ -224,38 +224,27 @@ print(word1, word2, word3, word4, word5, word6, word7, sep=" ")
 ***Solution 01***
 
 ```python
-# 1) Complete the function to return the result of the conversion
-def convert_distance(miles):
-    km = miles * 1.6  # approximately 1.6 km in 1 mile
-    return km
+# 1) Complete the code to return the result of the conversion
+def convert_distance(km):
+    m = km * 1000  # exactly 1000 meters in 1 kilometer
+    return m
 
-my_trip_miles = 55
+# Do not indent any of the following lines of code as they are
+# meant to be located outside of the function above
+my_trip_kilometers = 55
 
-# 2) Convert my_trip_miles to kilometers by calling the function above
-my_trip_km = convert_distance(my_trip_miles)
+# 2) Convert my_trip_kilometers to meters by calling the function above
+my_trip_meters = convert_distance(my_trip_kilometers)
 
-# 3) Fill in the blank to print the result of the conversion
-print("The distance in kilometers is " + str(my_trip_km))
-
-# 4) Calculate the round-trip in kilometers by doubling the result,
-#    and fill in the blank to print the result
-print("The round-trip in kilometers is " + str(my_trip_km * 2))
+# 3) Fill in the blank to print the result of converting my_trip_kilometers
+print("The distance in meters is " + str(my_trip_meters))
 ```
 
 ***Solution 02***
 
-```python
-# This function compares two numbers and returns them in increasing order.
-def order_numbers(number1, number2):
-    if number2 > number1:
-        return number1, number2
-    else:
-        return number2, number1
-
-# Fill in the blanks so the print statement displays the result of the function call
-smaller, bigger = order_numbers(100, 99)
-print(smaller, bigger)
-```
+- [x] Adding comments
+- [x] Writing self-documenting code
+- [x] Cleaning up duplicate code by creating a function that can be reused
 
 ***Solution 03***
 
@@ -265,10 +254,9 @@ print(smaller, bigger)
 
 ```python
 def print_seconds(hours, minutes, seconds):
-    print(hours*3600+minutes*60+seconds)
+   print(hours*3600+minutes*60+seconds)
 
-
-print_seconds(1,20,30)
+print_seconds(1,2,3)
 ```
 
 ***Solution 05***

@@ -321,66 +321,67 @@ print(calculate_storage(6000)) # Should be 8192
 ***Solution 01***
 
 ```python
-IP_address = "192.168.1.10"
-host_name = "Printer Server 1"
-## Output: "192.168.1.10 is the IP address of Printer Server 1"
-print(IP_address + " is the IP address of " + host_name)
+name = "Marjery"
+home_address = "1234 Mockingbird Lane"
+print(name + " lives at her home address of " + home_address)
+# Should print "Marjery lives at her home address of 1234 Mockingbird Lane"
 ```
 
 ***Solution 02***
 
-- [x] False
+- [x] `TypeError`
 
 ***Solution 03***
 
-- [x] A comparison
+- [x] 7
 
 ***Solution 04***
 
 ```python
-def speeding_ticket(speed):
-    if speed >= 80:
-        ticket = "Reckless Driving"
-    elif speed > 65:
-        ticket = "Speeding"
+def clothing_type(temp):
+    if temp > 65:
+        clothing = "T-Shirt"
+    elif temp > 50 and temp <= 65:
+        clothing = "Sweatshirt"
+    elif temp > 32 and temp <= 50:
+        clothing = "Jacket"
     else:
-        ticket = "Safe"
-    return ticket
+        clothing = "Heavy Coat"
+    return clothing
 
-
-print(speeding_ticket(87)) ## Output: "Reckless Driving"
-print(speeding_ticket(66)) ## Output: "Speeding"
-print(speeding_ticket(65)) ## Output: "Safe"
-print(speeding_ticket(85)) ## Output: "Reckless Driving"
-print(speeding_ticket(35)) ## Output: "Safe"
-print(speeding_ticket(77)) ## Output: "Speeding"
+print(clothing_type(72)) # Should print T-Shirt
+print(clothing_type(55)) # Should print Sweatshirt
+print(clothing_type(65)) # Should print Sweatshirt
+print(clothing_type(50)) # Should print Jacket
+print(clothing_type(45)) # Should print Jacket
+print(clothing_type(32)) # Should print Heavy Coat
+print(clothing_type(0)) # Should print Heavy Coat
 ```
 
 ***Solution 05***
 
-- [x] True
+- [x] 15
 
 ***Solution 06***
 
 ```python
-def identify_IP(IP_address):
-    if IP_address == "192.168.1.1":
-        IP_description = "Network router"
-    elif IP_address == "8.8.8.8" or IP_address == "8.8.4.4":
-        IP_description = "Google DNS server"
-    elif IP_address == "142.250.191.46":
-        IP_description = "Google.com"
+def complementary_color(color):
+    if color == "blue":
+        complement = "orange"
+    elif color == "yellow":
+        complement = "purple"
+    elif color == "red":
+        complement = "green"
     else:
-        IP_description = "unknown"
-    return IP_description
+        complement = "unknown"
+    return complement
 
-
-print(identify_IP("8.8.4.4")) ## Output: "Google DNS server"
-print(identify_IP("142.250.191.46")) ## Output: "Google.com"
-print(identify_IP("192.168.1.1")) ## Output: "Network router"
-print(identify_IP("8.8.8.8")) ## Output: "Google DNS server"
-print(identify_IP("10.10.10.10")) ## Output: "unknown"
-print(identify_IP("")) ## Output: "unknown"
+print(complementary_color("blue")) # Should print orange
+print(complementary_color("yellow")) # Should print purple
+print(complementary_color("red")) # Should print green
+print(complementary_color("black")) # Should print unknown
+print(complementary_color("Blue")) # Should print unknown
+print(complementary_color("")) # Should print unknown
 ```
 
 ***Solution 07***
@@ -389,34 +390,32 @@ print(identify_IP("")) ## Output: "unknown"
 
 ***Solution 08***
 
-- [x] False
+- [x] `False`
 
 ***Solution 09***
 
 ```python
-def safe_division(numerator, denominator):
-    ## Complete the if block to catch any "denominator" variables equal to 0.
-    if denominator == 0:
-        result = 0
+def return_nonnegative(first_num, second_num):
+    if first_num > second_num:
+        result = first_num - second_num
     else:
-        ## Complete the division equation.
-        result = numerator / denominator
+        result = second_num - first_num
     return result
 
-
-print(safe_division(5, 5)) ## Output: 1.0
-print(safe_division(5, 4)) ## Output: 1.25
-print(safe_division(5, 0)) ## Output: 0
-print(safe_division(0, 5)) ## Output: 0.0
+print(return_nonnegative(5, 5)) # Should print 0
+print(return_nonnegative(4, 5)) # Should print 1
+print(return_nonnegative(5, 3)) # Should print 2
+print(return_nonnegative(2, 5)) # Should print 3
+print(return_nonnegative(5, 0)) # Should print 5
+print(return_nonnegative(0, 5)) # Should print 5
 ```
 
 ***Solution 10***
 
 Multiple answers:
 
-- [x] Cleaning up duplicate code by creating a function that can be reused
-- [x] Adding comments
-- [x] Refactoring the code
+- [x] Makes the intent of the code obvious
+- [x] Easier to maintain
 
 ---
 

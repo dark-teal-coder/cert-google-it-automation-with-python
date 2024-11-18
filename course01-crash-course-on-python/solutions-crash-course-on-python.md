@@ -559,6 +559,26 @@ for x in range(0, 101, 7):
     print(x)
 ```
 
+***Solution 06***
+
+- [x] Choose this code below:
+
+```python
+for c in input:
+    if c.lower() in ['a', 'e', 'i', 'o', 'u']:
+        print(c)
+```
+
+- [x] Choose this code below:
+
+```python
+print([c for c in input if c.lower() in ['a', 'e', 'i', 'o', 'u']])
+```
+
+***Solution 07***
+
+- [x] If the starting index is negative, Python counts backward from the end of the string.
+
 ### 03.03 Recursion (Optional)
 
 #### 03.03.06 Practice Quiz: Recursion

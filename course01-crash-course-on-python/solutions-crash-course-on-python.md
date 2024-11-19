@@ -862,71 +862,75 @@ print(replace_ending("The weather is nice in May", "May", "April"))
 
 ```python
 filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]
-# Generate newfilenames as a list containing the new filenames
-# using as many lines of code as your chosen method requires.
-newfilenames = []
-for i, item in enumerate(filenames):
-    if item.endswith(".hpp"):
-        newfilenames.append(item.replace(".hpp", ".h"))
+# Generate new_filenames as a list containing the new filenames using as many lines of code as your chosen method requires.
+new_filenames = []
+for filename in filenames:
+    if filename.endswith("hpp"):
+        new_filenames.append(filename[:filename.index(".") + 1] + "h")
     else:
-        newfilenames.append(item)
+        new_filenames.append(filename)
 
-print(newfilenames)
+print(new_filenames)
 # Should be ["program.c", "stdio.h", "sample.h", "a.out", "math.h", "hpp.out"]
 ```
 
 ***Solution 02***
 
 ```python
-def pig_latin(text):
-  say = ""
-  # Separate the text into words
-  words = text.split()
-  for word in words:
-    # Create the pig latin word and add it to the list
-    say += word[1:] + word[0] + "ay" + " " if word != words[-1] else word[1:] + word[0] + "ay"
-    # Turn the list back into a phrase
-  return say
-
-print(pig_latin("hello how are you")) # Should be "ellohay owhay reaay ouyay"
-print(pig_latin("programming in python is fun")) # Should be "rogrammingpay niay ythonpay siay unfay"
+filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]
+# Generate new_filenames as a list containing the new filenames using as many lines of code as your chosen method requires.
+# Start your code here
+new_filenames = [filename[:filename.index(".") + 1] + "h" if filename.endswith("hpp") else filename for filename in filenames]
+print(new_filenames) 
+# Should print ["program.c", "stdio.h", "sample.h", "a.out", "math.h", "hpp.out"]
 ```
 
 ***Solution 03***
 
-- [x] `list.insert(index, x)`
+```python
+def pig_latin(text):
+  say = ""
+  # Separate the text into words
+  # new_word = []
+  words = text.split()
+  for word in words:
+    # Create the pig latin word and add it to the list
+    # new_word.append(word[1:] + word[0] + "ay")
+    say += word[1:] + word[0] + "ay" + " "
+    # Turn the list back into a phrase
+  return say.strip()
+    
+print(pig_latin("hello how are you")) # Should be "ellohay owhay reaay ouyay"
+print(pig_latin("programming in python is fun")) # Should be "rogrammingpay niay ythonpay siay unfay"
+```
 
 ***Solution 04***
 
-- [x] A tuple is immutable
+- [x] `list.insert(index, x)`
 
 ***Solution 05***
 
-```python
-def group_list(group, users):
-  members = ", ".join(users)
-  return "{}: {}".format(group, members)
-
-print(group_list("Marketing", ["Mike", "Karen", "Jake", "Tasha"])) # Should be "Marketing: Mike, Karen, Jake, Tasha"
-print(group_list("Engineering", ["Kim", "Jay", "Tom"])) # Should be "Engineering: Kim, Jay, Tom"
-print(group_list("Users", "")) # Should be "Users:"
-```
+- [x] A tuple is immutable
 
 ***Solution 06***
 
 ```python
-def guest_list(guests):
-    for name, age, pro in guests:
-        print("{} is {} years old and works as {}".format(name, age, pro))
+def biography_list(people):
+    # Iterate over each "person" in the given "people" list of tuples. 
+    for person in people: 
+        # Separate the 3 items in each tuple into 3 variables:
+        # "name", "age", and "profession"   
+        name, age, profession = person 
+        # Format the required sentence and place the 3 variables 
+        # in the correct placeholders using the .format() method.
+        print("{} is {} years old and works as {}".format(name, age, profession))
 
-guest_list([('Ken', 30, "Chef"), ("Pat", 35, 'Lawyer'), ('Amanda', 25, "Engineer")])
-
-"""
-Output should match:
-Ken is 30 years old and works as Chef
-Pat is 35 years old and works as Lawyer
-Amanda is 25 years old and works as Engineer
-"""
+# Call to the function:
+biography_list([("Ira", 30, "a Chef"), ("Raj", 35, "a Lawyer"), ("Maria", 25, "an Engineer")])
+# Output should match:
+# Ira is 30 years old and works as a Chef
+# Raj is 35 years old and works as a Lawyer
+# Maria is 25 years old and works as an Engineer
 ```
 
 ### 04.03 Dictionaries

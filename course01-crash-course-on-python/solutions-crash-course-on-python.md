@@ -968,9 +968,7 @@ def groups_per_user(group_dictionary):
 
     return(user_groups)
 
-print(groups_per_user({"local": ["admin", "userA"],
-        "public":  ["admin", "userB"],
-        "administrator": ["admin"] }))
+print(groups_per_user({"local": ["admin", "userA"], "public":  ["admin", "userB"], "administrator": ["admin"] }))
 ```
 
 ***Solution 03***

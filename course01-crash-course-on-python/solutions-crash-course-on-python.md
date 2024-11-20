@@ -1161,20 +1161,44 @@ print(count_letters("This is a sentence."))
 
 ***Solution 01***
 
+- [x] To write code that will solve the problem in a clear and concise way
+- [x] To identify the inputs and outputs of the problem
+- [x] Ensure that you are writing a script that is efficient and effective
+
 ***Solution 02***
+
+- [x] 1, 2, 3, 4, 5
 
 ***Solution 03***
 
+- [x] The `sorted()` method
+
 ***Solution 04***
+
+- [x] `reverse = True`
 
 ***Solution 05***
 
+- [x] `['Ray', 'Alex', 'Kelly', 'Carlos']`
+
 ***Solution 06***
+
+- [x] A dictionary
 
 ***Solution 07***
 
+- [x] Allows code to be modified more easily
+- [x] Improves code debugging
+- [x] Processes data more easily
+
 ***Solution 08***
+
+- [x] To execute a block of code only if a certain condition is true
 
 ***Solution 09***
 
+- [x] To execute a block of code if a specific condition is true, otherwise execute an alternative block of code.
+
 ***Solution 10***
+
+- [x] To create a list of all users currently logged into any machine and the machine they're logged into.

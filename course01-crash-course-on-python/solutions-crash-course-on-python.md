@@ -1025,7 +1025,6 @@ def format_address(address_string):
     ## Use a string method to return the required formatted string.
     return f"House number {house_number} on a street named {street_name}"
 
-
 print(format_address("123 Main Street"))
 ## Output: "House number 123 on a street named Main Street"
 print(format_address("1001 1st Ave"))
@@ -1038,36 +1037,28 @@ print(format_address("55 North Center Drive"))
 
 ```python
 def highlight_word(sentence, word):
-    ## Complete the return statement using a string method
-    i = sentence.index(word)
-    return sentence[:i] + word.upper() + sentence[i+len(word):]
-
+    # Complete the return statement using a string method.
+    return sentence.replace(word, word.upper())
 
 print(highlight_word("Have a nice day", "nice"))
-## Output: "Have a NICE day"
+# Should print: "Have a NICE day"
 print(highlight_word("Shhh, don't be so loud!", "loud"))
-## Output: "Shhh, don't be so LOUD!"
+# Should print: "Shhh, don't be so LOUD!"
 print(highlight_word("Automating with Python is fun", "fun"))
-## Output: "Automating with Python is FUN"
+# Should print: "Automating with Python is FUN"
 ```
 
 ***Solution 03***
 
 ```python
-def alphabetize_lists(list1, list2):
-  new_list = [] ## Initialize a new list
-  lists = list1 + list2 ## Combine the lists
-  lists = sorted(lists) ## Sort the combined lists
-  new_list = lists ## Assign the combined lists to the "new_list"
-  return new_list 
+def sort_distance(distances):
+    # Sort the list
+    # Reverse the order of the list
+    distances.sort(reverse=True) 
+    return distances
 
-
-Aniyahs_list = ["Jacomo", "Emma", "Uli", "Nia", "Imani"]
-Imanis_list = ["Loik", "Gabriel", "Ahmed", "Soraya"]
-
-print(alphabetize_lists(Aniyahs_list, Imanis_list))
-## Output: 
-## ['Ahmed', 'Emma', 'Gabriel', 'Imani', 'Jacomo', 'Loik', 'Nia', 'Soraya', 'Uli']
+print(sort_distance([2,4,0,15,8,9]))
+# Should print [15, 9, 8, 4, 2, 0]
 ```
 
 ***Solution 04***
@@ -1075,7 +1066,6 @@ print(alphabetize_lists(Aniyahs_list, Imanis_list))
 ```python
 def even_numbers(first, last):
   return [num for num in range(first, last) if num%2==0]
-
 
 print(even_numbers(4, 14)) ## Output: [4, 6, 8, 10, 12]
 print(even_numbers(0, 9)) ## Output: [0, 2, 4, 6, 8]
@@ -1093,7 +1083,6 @@ def countries(countries_dict):
         result += str(countries) + "\n"
     return result.strip()
 
-
 print(countries({"Africa": ["Kenya", "Egypt", "Nigeria"], 
     "Asia":["China", "India", "Thailand"], 
     "South America": ["Ecuador", "Bolivia", "Brazil"]}))
@@ -1106,16 +1095,18 @@ print(countries({"Africa": ["Kenya", "Egypt", "Nigeria"],
 ***Solution 06***
 
 ```python
-def combine_guests(guests1, guests2):
-  guests2.update(guests1) # Use a dictionary method to combine the dictionaries.
-  return guests2
+def setup_guests(guest_list):
+    # loop over the guest list and add each guest to the dictionary with
+    # an initial value of 0
+    result = {} # Initialize a new dictionary 
+    for guest in guest_list: # Iterate over the elements in the list 
+        result[guest] = 0 # Add each list element to the dictionary as a key with 
+            # the starting value of 0
+    return result
 
-Ricks_guests = { "Adam":2, "Camila":3, "David":1, "Jamal":3, "Charley":2, "Titus":1, "Raj":4}
-Tessas_guests = { "David":4, "Noemi":1, "Raj":2, "Adam":1, "Sakira":3, "Chidi":5}
-
-print(combine_guests(Ricks_guests, Tessas_guests))
-## Output:
-## {'David': 1, 'Noemi': 1, 'Raj': 4, 'Adam': 2, 'Sakira': 3, 'Chidi': 5, 'Camila': 3, 'Jamal': 3, 'Charley': 2, 'Titus': 1}
+guests = ["Adam","Camila","David","Jamal","Charley","Titus","Raj","Noemi","Sakira","Chidi"]
+print(setup_guests(guests))
+# Should print {'Adam': 0, 'Camila': 0, 'David': 0, 'Jamal': 0, 'Charley': 0, 'Titus': 0, 'Raj': 0, 'Noemi': 0, 'Sakira': 0, 'Chidi': 0}
 ```
 
 ***Solution 07***
@@ -1152,15 +1143,15 @@ print(count_letters("This is a sentence."))
 
 ***Solution 08***
 
-- [x] bor, hini, Lamborg
+- [x] `bor, hini, Lamborg`
 
 ***Solution 09***
 
-- [x] ['Volkswagen', 'Toyota']
+- [x] `['rock', 'pop', 'country', 'blues']`
 
 ***Solution 10***
 
-- [x] dict_values(['Aniyah Cook', 'Ines Bisset', 'Wayne Branon'])
+- [x] `dict_values(['Aniyah Cook', 'Ines Bisset', 'Wayne Branon'])`
 
 ---
 

@@ -1155,8 +1155,26 @@ print(count_letters("This is a sentence."))
 
 ---
 
-## Module 05 Final Project
-
-### 05.01 Writing a Script from the Ground Up
+### Module 05 Final Project
 
 #### 05.01.13 Quiz: Module 05 Graded Assessment
+
+***Solution 01***
+
+***Solution 02***
+
+***Solution 03***
+
+***Solution 04***
+
+***Solution 05***
+
+***Solution 06***
+
+***Solution 07***
+
+***Solution 08***
+
+***Solution 09***
+
+***Solution 10***

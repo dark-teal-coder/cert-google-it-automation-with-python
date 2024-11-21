@@ -21,3 +21,6 @@ Notes
 - Each time we start week 2 lab in course 3, the PPK file generated will be different.
 - Each time we start week 2 lab in course 3, Linux instance external IP address and username will be different. Compare ![course-03-week-02-vm-instance-01.png](./images/course-03-week-02-vm-instance-01.png) with ![course-03-week-02-vm-instance-01.png](./images/course-03-week-02-vm-instance-02.png).
 
+&nbsp;
+
+*1st Completion Date: Nov 20, 2024*&emsp;
